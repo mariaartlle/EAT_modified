@@ -83,12 +83,64 @@ def generate_training_set(dataset_val200):
 				hf.create_dataset(seq_id, data=embedding)
 
 
+def remove_non_existing_families_in_train_from_val(): 
+	# what families are present in the training dataset
+	identifiers = []
+	with open('BacDBTF_0.5id_train3600.fasta', 'r') as f: 
+		for line in f: 
+			if line.startswith('>'): 
+				identifiers.append(line.strip().strip('>'))
+
+	df = pd.read_csv('BacDBTF_morethan50.tsv', sep='\t')
+
+	families = []
+	for uniprot in identifiers: 
+		families.append(list(df.loc[df['UniprotID'] == uniprot, 'Family'])[0])
+
+	# remove the proteins from the validation dataset that do not have family in the training dataset
+	# dictionary with uniprots and families for val38 proteins: 
+	val38_dict = {}
+	uniprots = []
+	with open('val200.fasta', 'r') as f: 
+		for line in f: 
+			if line.startswith('>'): 
+				uniprots.append(line.strip().strip('>'))
+	val35_seq = {}
+	for uniprot in uniprots: 
+		val38_dict[uniprot] = list(df.loc[df['UniprotID'] == uniprot, 'Family'])[0]
+		val35_seq[uniprot] = list(df.loc[df['UniprotID'] == uniprot, 'Sequence'])[0]
+
+	val35_dict = val38_dict.copy()
+	for uniprot, family in val38_dict.items():
+		if family not in families: 
+			del val35_dict[uniprot]
+
+	# create new val35 files 
+	with open('BacDBTF_val35.fasta', 'w') as outfile:
+		for uniprot in val35_dict.keys():
+			outfile.write('>{}\n{}\n'.format(uniprot, val35_seq[uniprot]))
+
+	h5_f = h5py.File('BacDBTF_morethan50_650M_embeddings.h5', 'r')
+	embeddings_dict = {}
+	for key in h5_f.keys(): 
+		embeddings_dict[key] = h5_f[key][()]
+
+	# 3. save the embeddings in an h5 format 
+	with h5py.File('BacDBTF_val35_650M_embeddings.h5',"w") as hf:
+		for seq_id, embedding in embeddings_dict.items():
+			if seq_id.split('_')[0] in val35_dict.keys():
+				hf.create_dataset(seq_id, data=embedding)
+			
+
+
+
 if __name__=='__main__':
 	# dataset_val200 = generate_200val()
-	dataset_val200 = []
-	with open('val200.fasta', 'r') as fasta: 
-		for line in fasta:
-			if line.startswith('>'):
-				dataset_val200.append(line.strip('>').strip())
+	#dataset_val200 = []
+	#with open('val200.fasta', 'r') as fasta: 
+		#for line in fasta:
+			#if line.startswith('>'):
+			#	dataset_val200.append(line.strip('>').strip())
 
-	generate_training_set(dataset_val200)
+	#generate_training_set(dataset_val200)
+	remove_non_existing_families_in_train_from_val()
