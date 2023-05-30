@@ -1,0 +1,102 @@
+UniprotID_query	Query-Label	Lookup-ID	Lookup-Label	Embedding distance	Nearest-Neighbor-Idx
+Q6A6R1		Q6A6R1	RNA polymerase alpha chain family	0.0046	1
+Q6A8H5		Q6A8H5	RNA polymerase subunit omega family	0	1
+Q6A8L0		A1SNI8	RNA polymerase alpha chain family	1.5497	1
+Q6A8Y9		P45684	sigma-70 factor family	1.6904	1
+Q6A998		Q6A998	HrcA family	0.0037	1
+Q6A9R1		Q6A9R1	MraZ family	0.0047	1
+Q6A5C9		A0A024HKB0	LysR	1.3785	1
+Q6A5D3		A0A024HKB0	LysR	1.6079	1
+Q6A5F1		Q6AEB9	HrcA family	1.6783	1
+Q6A5G1		Q46M57	LysR	1.4245	1
+Q6A5I2		P55619	LysR	1.76	1
+Q6A5K5		A7MXA8	MarR/SlyA	1.6989	1
+Q6A5K8		P9WGG4	sigma-70 factor family	1.6497	1
+Q6A5P2		Q6AEB9	HrcA family	1.7086	1
+Q6A5Q1		P96440	MarR/SlyA	2.2564	1
+Q6A5Q5		P0A603	sigma-70 factor family	1.9742	1
+Q6A5R6		Q46M57	LysR	1.3759	1
+Q6A5Z4		Q20XE6	CheB family	1.4985	1
+Q6A626		P9WMF6	LysR	1.7329	1
+Q6A638		A0A024HKB0	LysR	1.6761	1
+Q6A645		P52659	LysR	1.2064	1
+Q6A657		Q20XE6	CheB family	1.378	1
+Q6A663		Q8FTN0	ArgR family	1.7311	1
+Q6A671		P62636	CheB family	1.5204	1
+Q6A6A1		P55733	LysR	1.6291	1
+Q6A6A6		O87324	LysR	1.0153	1
+Q6A6D9		P52659	LysR	1.4347	1
+Q6A740		Q9WX14	transcriptional regulatory Rex family	2.1071	1
+Q6A765		Q7UW59	transcriptional regulatory Rex family	1.3894	1
+Q6A793		Q87L53	MarR/SlyA	1.935	1
+Q6A795		P9WGG4	sigma-70 factor family	1.7416	1
+Q6A7B8		A6VPL3	TrpR family	1.8385	1
+Q6A7E5		Q5E881	SNF2/RAD54 helicase family. RapA subfamily	1.5095	1
+Q6A7G6		A0A024HKB0	LysR	1.4851	1
+Q6A7H0		O69450	Fur	1.7152	1
+Q6A7M4		B4R8P1	RNA polymerase alpha chain family	1.5434	1
+Q6A7N6		A1A1M6	HrcA family	1.6869	1
+Q6A7R0		P67668	LysR	1.6296	1
+Q6A7V8		P9WGG4	sigma-70 factor family	1.6558	1
+Q6A7V9		Q6NHG5	ArgR family	0.855	1
+Q6A7X8		P0A603	sigma-70 factor family	2.2565	1
+Q6A7Z8		P67668	LysR	1.6064	1
+Q6A823		A2BYF5	RNA polymerase subunit omega family	2.3909	1
+Q6A828		Q2RRX2	CheB family	1.4133	1
+Q6A866		C4K6P9	MetJ family	2.0618	1
+Q6A872		P42075	RNA polymerase beta chain family	1.3272	1
+Q6A8A1		P9WGI2	sigma-70 factor family	1.5316	1
+Q6A8E0		Q167K9	CheB family	1.9045	1
+Q6A8E6		C1F4F3	ArgR family	1.6996	1
+Q6A8F0		P43161	LysR	1.5507	1
+Q6A8M8		P62636	CheB family	1.5907	1
+Q6A8T4		P55619	LysR	1.6814	1
+Q6A8U8		Q7UW59	transcriptional regulatory Rex family	1.4893	1
+Q6A8W5		Q6A8H8	NusB family	1.8276	1
+Q6A8Y2		P18183	sigma-70 factor family	0.7666	1
+Q6A8Z1		A0R2D4	sigma-70 factor family	1.7753	1
+Q6A904		Q98PD1	CheB family	1.5426	1
+Q6A905		A8H0T9	ArgR family	1.8836	1
+Q6A925		P9WGG4	sigma-70 factor family	1.7426	1
+Q6A949		P67668	LysR	1.5332	1
+Q6A955		Q60012	sigma-70 factor family	1.3861	1
+Q6A965		Q8NNC4	Fur	0.8724	1
+Q6A966		Q1D225	CheB family	1.4223	1
+Q6A987		P62636	CheB family	1.4828	1
+Q6A9D2		B2RGP4	transcriptional regulatory Rex family	1.4412	1
+Q6A9D3		P52003	MarR/SlyA	1.6268	1
+Q6A9I0		Q9RSQ7	NusB family	1.8673	1
+Q6A9P4		Q9CCR9	NusB family	2.0369	1
+Q6A9S0		I3XE46	LysR	1.8791	1
+Q6A9V0		P18184	sigma-70 factor family	2.01	1
+Q6A9Y4		Q46M57	LysR	1.7418	1
+Q6AA05		Q59914	sigma-70 factor family	1.7804	1
+Q6AA10		Q5E881	SNF2/RAD54 helicase family. RapA subfamily	1.908	1
+Q6AA58		A0A024HKB0	LysR	1.4221	1
+Q6AA75		Q6NHG5	ArgR family	1.1245	1
+Q6AA82		A7MXA8	MarR/SlyA	2.0709	1
+Q6AAD4		P9WMF6	LysR	1.6652	1
+Q6AAD5		Q87L53	MarR/SlyA	1.6772	1
+Q6AAF7		A1A1M6	HrcA family	1.9039	1
+Q6AAG0		A1A1W8	ArgR family	1.6757	1
+Q6AAH9		Q8FTN0	ArgR family	1.6844	1
+Q6AAK9		A1A1W8	ArgR family	1.7339	1
+Q6AAP9		P9WGI2	sigma-70 factor family	1.8626	1
+Q6AAR7		L0TCG5	sigma-70 factor family	1.6322	1
+Q6AAS2		P66810	sigma-70 factor family	1.353	1
+Q6AAV2		P62636	CheB family	1.3856	1
+Q6AAW7		H8F0N6	sigma-70 factor family	1.6781	1
+Q6AAY2		Q03066	sigma-70 factor family	1.8225	1
+Q6AB10		Q7UW59	transcriptional regulatory Rex family	1.5548	1
+Q6AB19		Q98PD1	CheB family	1.4612	1
+Q6AB82		Q46M57	LysR	1.4896	1
+Q6ABC9		B1VXR4	sigma-70 factor family	1.7781	1
+Q6ABE4		P9WMF6	LysR	1.5777	1
+Q6ABI8		Q20XE6	CheB family	1.4688	1
+Q6ABK0		B2RGP4	transcriptional regulatory Rex family	1.4271	1
+Q6ABN1		P9WGH2	sigma-70 factor family	1.637	1
+Q6ABP0		P67668	LysR	1.6779	1
+Q6ABP2		P9WGH2	sigma-70 factor family	1.7822	1
+Q6ABQ1		A0A024HKB0	LysR	1.5219	1
+Q6ABR9		P62636	CheB family	1.4674	1
+Q6ABT6		Q98PD1	CheB family	1.5395	1

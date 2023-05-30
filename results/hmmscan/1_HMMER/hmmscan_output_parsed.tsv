@@ -1,0 +1,195 @@
+identifier_target_name	identifier_target_accession	identifier_target_length	identifier_query_name	identifier_query_accession	identifier_query_length	full_sequence_e-value	full_sequence_score	full_sequence_bias	this_domain_domain_number	this_domain_total_domains	this_domain_e-value	this_domain_i-value	this_domain_score	this_domain_bias	hmm_coord_from	hmm_coord_to	ali_coord_from	ali_coord_to	env_coord_from	env_coord_to	identifier_acc	identifier_query_description
+Whib	PF02467.19	64	tr|Q6A5Q5|Q6A5Q5_CUTAK	-	185	2.5e-08	34.5	0.2	1	1	8.7e-12	4.2e-08	33.8	0.2	21	63	38	80	21	81	0.87	Transcription factor WhiB
+Sigma70_r4	PF04545.19	50	tr|Q6A5Q5|Q6A5Q5_CUTAK	-	185	3.2e-06	26.7	0.0	1	1	1.6e-09	7.7e-06	25.5	0.0	10	46	110	147	108	148	0.94	Sigma-70, region 4
+HTH_11	PF08279.15	55	tr|Q6A5Q5|Q6A5Q5_CUTAK	-	185	0.00034	20.6	0.0	2	2	0.55	2.7e+03	-1.5	0.0	13	23	157	167	153	170	0.69	HTH domain
+cNMP_binding	PF00027.32	89	tr|Q6AB82|Q6AB82_CUTAK	-	233	5.8e-17	61.7	0.0	1	1	3.3e-20	1.1e-16	60.8	0.0	5	87	35	121	32	123	0.90	Cyclic nucleotide-binding domain
+HTH_Crp_2	PF13545.9	68	tr|Q6AB82|Q6AB82_CUTAK	-	233	2e-15	56.6	0.0	1	1	1.3e-18	4.2e-15	55.6	0.0	2	66	156	229	155	231	0.84	Crp-like helix-turn-helix domain
+Crp	PF00325.23	32	tr|Q6AB82|Q6AB82_CUTAK	-	233	7.4e-06	25.7	0.0	1	2	2.2	7.3e+03	-3.1	0.0	22	28	130	136	130	137	0.80	Bacterial regulatory proteins, crp family
+DUF3071	PF11268.11	166	tr|Q6A8W5|Q6A8W5_CUTAK	-	359	9.8e-30	103.9	0.7	1	2	5e-34	9.8e-30	103.9	0.7	52	166	3	120	1	120	0.92	Protein of unknown function (DUF3071)
+DUF3071	PF11268.11	166	tr|Q6A8W5|Q6A8W5_CUTAK	-	359	9.8e-30	103.9	0.7	2	2	0.57	1.1e+04	-3.6	0.0	24	44	158	180	153	194	0.58	Protein of unknown function (DUF3071)
+Sigma70_r4	PF04545.19	50	tr|Q6A955|Q6A955_CUTAK	-	270	4.3e-12	45.5	1.3	1	1	1.8e-15	1.2e-11	44.1	1.3	4	50	213	262	210	262	0.95	Sigma-70, region 4
+Sigma70_r2	PF04542.17	71	tr|Q6A955|Q6A955_CUTAK	-	270	4.3e-09	36.2	0.3	1	2	6.6e-13	4.3e-09	36.2	0.3	7	63	70	127	64	134	0.82	Sigma-70 region 2
+HTH_Tnp_ISL3	PF13542.9	52	tr|Q6A955|Q6A955_CUTAK	-	270	0.00099	18.6	0.8	1	3	1.3	8.5e+03	-3.6	0.0	38	47	44	53	42	56	0.76	Helix-turn-helix domain of transposase family ISL3
+MarR_2	PF12802.10	61	tr|Q6A795|Q6A795_CUTAK	-	178	2.6e-12	46.7	0.7	1	1	8.4e-16	5.5e-12	45.7	0.7	2	60	66	125	65	126	0.94	MarR family
+HTH_AsnC-type	PF13404.9	42	tr|Q6A5I2|Q6A5I2_CUTAK	-	335	1.2e-22	79.5	3.8	1	2	3.8e-16	1.2e-12	47.5	0.0	3	41	4	42	3	43	0.98	AsnC-type helix-turn-helix domain
+HTH_AsnC-type	PF13404.9	42	tr|Q6A5I2|Q6A5I2_CUTAK	-	335	1.2e-22	79.5	3.8	2	2	7.8e-11	2.6e-07	30.5	2.6	2	41	169	208	169	209	0.98	AsnC-type helix-turn-helix domain
+AsnC_trans_reg	PF01037.24	75	tr|Q6A5I2|Q6A5I2_CUTAK	-	335	7.2e-12	45.2	0.0	1	2	5.7e-14	1.8e-10	40.7	0.0	1	74	64	134	64	135	0.92	Lrp/AsnC ligand binding domain
+Response_reg	PF00072.27	112	tr|Q6A966|Q6A966_CUTAK	-	223	7.6e-27	93.8	0.1	1	1	1.7e-30	1.1e-26	93.3	0.1	2	109	6	114	5	117	0.96	Response regulator receiver domain
+GerE	PF00196.22	57	tr|Q6A966|Q6A966_CUTAK	-	223	6.3e-12	45.0	0.0	1	1	1.7e-15	1.1e-11	44.2	0.0	3	55	157	209	155	211	0.92	Bacterial regulatory proteins, luxR family
+Response_reg	PF00072.27	112	tr|Q6AAP9|Q6AAP9_CUTAK	-	206	3.2e-22	78.9	0.0	1	1	6.7e-26	4.4e-22	78.5	0.0	2	111	10	120	9	121	0.96	Response regulator receiver domain
+GerE	PF00196.22	57	tr|Q6AAP9|Q6AAP9_CUTAK	-	206	5.8e-12	45.1	0.0	1	1	1.3e-15	8.8e-12	44.6	0.0	2	57	145	200	144	200	0.97	Bacterial regulatory proteins, luxR family
+Arg_repressor_C	PF02863.21	68	tr|Q6A7V9|Q6A7V9_CUTAK	-	182	1.8e-19	69.5	0.1	1	1	2.6e-23	2.5e-19	69.0	0.1	2	67	96	161	95	162	0.95	Arginine repressor, C-terminal domain
+Arg_repressor	PF01316.24	70	tr|Q6A7V9|Q6A7V9_CUTAK	-	182	9.1e-19	67.1	0.0	1	2	2.1e-22	2e-18	66.0	0.0	2	66	10	74	9	77	0.96	Arginine repressor, DNA binding domain
+MarR	PF01047.25	59	tr|Q6A5K8|Q6A5K8_CUTAK	-	174	3.4e-12	46.2	0.0	1	1	2e-15	7.7e-12	45.0	0.0	2	58	50	105	49	105	0.90	MarR family
+Response_reg	PF00072.27	112	tr|Q6AB19|Q6AB19_CUTAK	-	218	1.1e-26	93.4	0.1	1	1	7.4e-30	1.8e-26	92.6	0.1	1	112	6	116	6	116	0.97	Response regulator receiver domain
+GerE	PF00196.22	57	tr|Q6AB19|Q6AB19_CUTAK	-	218	3e-17	62.1	0.3	1	1	1.9e-20	4.6e-17	61.5	0.3	2	56	155	209	154	210	0.96	Bacterial regulatory proteins, luxR family
+Whib	PF02467.19	64	tr|Q6A740|Q6A740_CUTAK	-	85	9.7e-27	93.5	2.1	1	1	5.7e-31	1.1e-26	93.3	2.1	1	64	18	81	18	81	0.99	Transcription factor WhiB
+Peptidase_S24	PF00717.26	116	tr|Q6A8Z1|Q6A8Z1_CUTAK	-	224	5.3e-10	39.2	0.0	1	1	1.8e-13	9.1e-10	38.5	0.0	15	114	115	216	108	218	0.81	Peptidase S24-like
+LexA_DNA_bind	PF01726.19	65	tr|Q6A8Z1|Q6A8Z1_CUTAK	-	224	3.5e-07	30.0	0.1	1	1	1.3e-10	6.2e-07	29.2	0.1	6	62	30	86	26	87	0.95	LexA DNA binding domain
+HTH_6	PF01418.20	77	tr|Q6A8M8|Q6A8M8_CUTAK	-	290	5.8e-21	74.4	0.0	1	1	2.1e-24	1.4e-20	73.2	0.0	3	76	5	78	3	79	0.97	Helix-turn-helix domain, rpiR family
+SIS	PF01380.25	131	tr|Q6A8M8|Q6A8M8_CUTAK	-	290	1e-19	70.8	0.1	1	1	2.4e-23	1.6e-19	70.1	0.1	5	130	136	261	132	262	0.95	SIS domain
+AMP_N	PF05195.19	123	tr|Q6AA10|Q6AA10_CUTAK	-	498	1.6e-17	63.5	0.0	1	1	3.1e-21	3e-17	62.6	0.0	3	112	59	177	57	184	0.89	Aminopeptidase P, N-terminal domain
+Peptidase_M24	PF00557.27	209	tr|Q6AA10|Q6AA10_CUTAK	-	498	7.2e-47	159.9	0.2	2	2	1.3e-50	1.3e-46	159.1	0.1	1	209	229	468	229	468	0.89	Metallopeptidase family M24
+HrcA	PF01628.24	219	sp|Q6A998|HRCA_CUTAK	-	339	9e-54	182.8	0.4	1	1	1.2e-57	1.1e-53	182.5	0.4	1	219	103	322	103	322	0.90	HrcA protein C terminal domain
+HTH_DeoR	PF08220.15	57	sp|Q6A998|HRCA_CUTAK	-	339	3.2e-06	26.9	0.0	1	2	1.9e-08	0.00018	21.3	0.0	7	51	16	62	11	67	0.78	DeoR-like helix-turn-helix domain
+TetR_N	PF00440.26	47	tr|Q6A7V8|Q6A7V8_CUTAK	-	203	1.1e-09	38.1	0.1	1	1	1.7e-13	1.6e-09	37.5	0.1	3	47	25	69	23	69	0.95	Bacterial regulatory proteins, tetR family
+TetR_C_1	PF02909.20	145	tr|Q6A7V8|Q6A7V8_CUTAK	-	203	5.2e-09	36.2	0.3	1	2	5.7e-12	5.6e-08	32.8	0.0	2	89	84	171	83	174	0.94	Tetracyclin repressor-like, C-terminal domain
+TetR_C_1	PF02909.20	145	tr|Q6A7V8|Q6A7V8_CUTAK	-	203	5.2e-09	36.2	0.3	2	2	0.029	2.9e+02	1.3	0.0	126	142	184	200	173	203	0.86	Tetracyclin repressor-like, C-terminal domain
+HTH_IclR	PF09339.13	52	tr|Q6A5P2|Q6A5P2_CUTAK	-	254	2.9e-11	43.1	0.3	1	1	1.6e-14	8.1e-11	41.7	0.3	5	51	12	58	11	59	0.96	IclR helix-turn-helix domain
+IclR	PF01614.21	128	tr|Q6A5P2|Q6A5P2_CUTAK	-	254	2.9e-13	49.9	0.1	2	2	1.4e-16	7e-13	48.7	0.1	6	127	127	249	122	250	0.90	Bacterial transcriptional regulator
+DeoRC	PF00455.25	160	tr|Q6AB10|Q6AB10_CUTAK	-	309	7.5e-28	97.6	0.0	1	1	2.5e-31	1.2e-27	96.9	0.0	4	139	121	256	119	264	0.95	DeoR C terminal sensor domain
+HTH_DeoR	PF08220.15	57	tr|Q6AB10|Q6AB10_CUTAK	-	309	5.7e-09	35.7	0.3	1	1	2.6e-12	1.3e-08	34.6	0.3	1	54	51	105	51	108	0.91	DeoR-like helix-turn-helix domain
+HTH_11	PF08279.15	55	tr|Q6AB10|Q6AB10_CUTAK	-	309	1.6e-05	24.9	0.3	2	2	2.7	1.3e+04	-3.7	0.0	19	26	282	289	280	289	0.82	HTH domain
+PadR	PF03551.17	75	tr|Q6A793|Q6A793_CUTAK	-	113	1.4e-20	73.2	0.0	1	1	9.5e-25	1.9e-20	72.7	0.0	1	73	19	89	19	91	0.98	Transcriptional regulator PadR-like family
+Peptidase_M78	PF06114.16	123	tr|Q6ABC9|Q6ABC9_CUTAK	-	369	8e-12	45.3	0.0	1	1	2.7e-15	1.8e-11	44.2	0.0	4	122	150	260	147	261	0.75	IrrE N-terminal-like domain
+HTH_3	PF01381.25	55	tr|Q6ABC9|Q6ABC9_CUTAK	-	369	1.7e-09	37.7	0.0	2	2	1.1	7e+03	-2.7	0.0	45	54	325	334	325	335	0.83	Helix-turn-helix
+HTH_31	PF13560.9	64	tr|Q6ABC9|Q6ABC9_CUTAK	-	369	3.1e-07	30.8	3.4	2	3	0.05	3.2e+02	1.9	0.0	33	61	90	117	77	119	0.74	Helix-turn-helix domain
+Peripla_BP_3	PF13377.9	166	tr|Q6AA58|Q6AA58_CUTAK	-	332	7.2e-30	104.5	0.8	2	2	3.3e-33	1.6e-29	103.4	0.1	1	166	173	329	173	329	0.91	Periplasmic binding protein-like domain
+LacI	PF00356.24	46	tr|Q6AA58|Q6AA58_CUTAK	-	332	7e-17	61.1	0.1	1	1	2.9e-20	1.4e-16	60.1	0.1	1	46	6	51	6	51	0.99	Bacterial regulatory proteins, lacI family
+FUR	PF01475.22	121	tr|Q6A965|Q6A965_CUTAK	-	137	3.7e-30	104.7	0.0	1	2	1.9e-34	3.7e-30	104.7	0.0	4	120	5	121	2	122	0.96	Ferric uptake regulator family
+FUR	PF01475.22	121	tr|Q6A965|Q6A965_CUTAK	-	137	3.7e-30	104.7	0.0	2	2	0.44	8.7e+03	-3.1	0.3	83	91	124	132	124	133	0.87	Ferric uptake regulator family
+MarR_2	PF12802.10	61	tr|Q6AAF7|Q6AAF7_CUTAK	-	206	5e-05	23.4	0.1	1	2	2.1e-08	0.00021	21.4	0.0	21	60	1	40	1	41	0.96	MarR family
+Germane	PF10646.12	105	tr|Q6AAY2|Q6AAY2_CUTAK	-	487	1e-07	32.8	0.0	1	1	3.2e-11	2.1e-07	31.8	0.0	21	104	284	375	263	376	0.73	Sporulation and spore germination
+Sigma70_r4	PF04545.19	50	tr|Q6AAY2|Q6AAY2_CUTAK	-	487	0.00025	20.6	0.0	1	1	7e-08	0.00046	19.8	0.0	1	45	102	147	102	150	0.95	Sigma-70, region 4
+HTH_11	PF08279.15	55	tr|Q6A7N6|Q6A7N6_CUTAK	-	640	2.8e-17	62.5	0.1	1	2	9e-11	3.5e-07	30.2	0.0	4	47	6	48	3	55	0.88	HTH domain
+HTH_11	PF08279.15	55	tr|Q6A7N6|Q6A7N6_CUTAK	-	640	2.8e-17	62.5	0.1	2	2	1.4e-10	5.6e-07	29.5	0.0	7	54	93	144	87	145	0.90	HTH domain
+PRD	PF00874.23	90	tr|Q6A7N6|Q6A7N6_CUTAK	-	640	7.2e-14	52.0	0.1	1	2	0.0046	18	5.8	0.0	31	86	203	258	197	261	0.80	PRD domain
+PTS_EIIA_2	PF00359.25	144	tr|Q6A7N6|Q6A7N6_CUTAK	-	640	3e-08	33.8	0.0	1	1	1.7e-11	6.7e-08	32.7	0.0	22	139	511	625	502	629	0.91	Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2
+HTH_31	PF13560.9	64	tr|Q6A905|Q6A905_CUTAK	-	91	4.1e-10	40.0	1.2	1	1	1.1e-13	5.2e-10	39.6	1.2	2	60	10	67	9	70	0.96	Helix-turn-helix domain
+Peripla_BP_3	PF13377.9	166	tr|Q6ABQ1|Q6ABQ1_CUTAK	-	335	1.8e-34	119.5	1.9	2	2	5.7e-38	2.2e-34	119.2	0.2	1	166	171	328	171	328	0.91	Periplasmic binding protein-like domain
+LacI	PF00356.24	46	tr|Q6ABQ1|Q6ABQ1_CUTAK	-	335	4.1e-16	58.6	0.9	1	2	1.8e-19	7.2e-16	57.8	0.4	1	46	6	51	6	51	0.98	Bacterial regulatory proteins, lacI family
+ROK	PF00480.23	294	tr|Q6A638|Q6A638_CUTAK	-	397	1.5e-50	172.4	0.3	1	1	4.3e-54	2.1e-50	172.0	0.3	5	290	99	385	96	388	0.88	ROK family
+HTH_24	PF13412.9	48	tr|Q6A638|Q6A638_CUTAK	-	397	2.9e-07	30.1	0.0	1	1	1.6e-10	7.8e-07	28.7	0.0	7	47	29	69	28	70	0.94	Winged helix-turn-helix DNA-binding
+Response_reg	PF00072.27	112	tr|Q6A5Z4|Q6A5Z4_CUTAK	-	232	1.1e-32	112.7	0.1	1	1	1.4e-36	1.4e-32	112.3	0.1	1	111	5	114	5	115	0.99	Response regulator receiver domain
+Trans_reg_C	PF00486.31	77	tr|Q6A5Z4|Q6A5Z4_CUTAK	-	232	5.5e-23	81.0	0.2	2	2	1.6e-26	1.6e-22	79.5	0.1	2	77	153	227	152	227	0.95	Transcriptional regulatory protein, C terminal
+HTH_28	PF13518.9	52	tr|Q6A5F1|Q6A5F1_CUTAK	-	315	1.6e-06	28.2	1.4	1	2	9.6e-10	2.4e-06	27.7	0.0	6	41	13	48	11	51	0.92	Helix-turn-helix domain
+Sugar-bind	PF04198.16	257	tr|Q6A5F1|Q6A5F1_CUTAK	-	315	4.9e-53	180.0	0.3	2	2	5.1e-56	1.2e-52	178.7	0.1	9	256	63	312	56	313	0.95	Putative sugar-binding domain
+EPSP_synthase	PF00275.23	416	tr|Q6A8E0|Q6A8E0_CUTAK	-	548	8.1e-46	156.7	0.0	1	1	2.9e-49	9.6e-46	156.4	0.0	2	414	118	534	117	536	0.87	EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+HTH_3	PF01381.25	55	tr|Q6A8E0|Q6A8E0_CUTAK	-	548	1.2e-12	47.8	0.2	1	1	9.6e-16	3.1e-12	46.5	0.2	1	50	53	102	53	105	0.96	Helix-turn-helix
+Fe_dep_repr_C	PF02742.18	70	tr|Q6AAH9|Q6AAH9_CUTAK	-	232	1.6e-23	82.7	0.0	1	1	7e-27	3.5e-23	81.6	0.0	1	69	66	134	66	135	0.98	Iron dependent repressor, metal binding and dimerisation domain
+DtxR	PF18357.4	79	tr|Q6AAH9|Q6AAH9_CUTAK	-	232	0.00011	22.6	0.0	2	2	3.5e-07	0.0017	18.7	0.0	11	63	162	214	157	224	0.88	Diphteria toxin repressor SH3 domain
+Fe_dep_repress	PF01325.22	60	tr|Q6AAH9|Q6AAH9_CUTAK	-	232	2e-16	60.0	0.1	1	2	1.3e-19	6.3e-16	58.5	0.2	1	58	4	61	4	63	0.96	Iron dependent repressor, N-terminal DNA binding domain
+Sigma70_r4_2	PF08281.15	54	tr|Q6ABP2|Q6ABP2_CUTAK	-	211	1.1e-05	25.1	0.1	1	1	1e-09	2e-05	24.3	0.1	25	51	162	188	141	190	0.89	Sigma-70, region 4
+PAS_6	PF08348.14	115	tr|Q6A8U8|Q6A8U8_CUTAK	-	222	9.9e-24	83.5	0.0	1	1	2.1e-27	1.4e-23	83.0	0.0	3	113	4	109	2	111	0.92	YheO-like PAS domain
+HTH_22	PF13309.9	63	tr|Q6A8U8|Q6A8U8_CUTAK	-	222	1.1e-19	70.4	0.0	1	1	2.7e-23	1.7e-19	69.7	0.0	5	63	147	205	144	205	0.97	HTH domain
+Trans_reg_C	PF00486.31	77	tr|Q6AAW7|Q6AAW7_CUTAK	-	237	3.1e-26	91.4	0.1	1	1	2.5e-30	4.9e-26	90.7	0.1	2	77	160	233	159	233	0.95	Transcriptional regulatory protein, C terminal
+GFO_IDH_MocA_C	PF02894.20	220	tr|Q6AAR7|Q6AAR7_CUTAK	-	769	1.9e-17	63.9	0.1	1	1	1.2e-20	2.9e-17	63.3	0.1	1	216	514	747	514	751	0.85	Oxidoreductase family, C-terminal alpha/beta domain
+ROK	PF00480.23	294	tr|Q6AAR7|Q6AAR7_CUTAK	-	769	2.4e-17	63.5	0.1	1	2	1.2e-16	2.8e-13	50.1	0.0	22	155	106	242	83	246	0.88	ROK family
+ROK	PF00480.23	294	tr|Q6AAR7|Q6AAR7_CUTAK	-	769	2.4e-17	63.5	0.1	2	2	8.1e-05	0.2	11.2	0.0	220	291	262	331	257	334	0.90	ROK family
+GFO_IDH_MocA	PF01408.25	120	tr|Q6AAR7|Q6AAR7_CUTAK	-	769	1.2e-16	61.6	0.1	2	2	3.5e-19	8.6e-16	58.9	0.0	1	120	380	502	380	502	0.91	Oxidoreductase family, NAD-binding Rossmann fold
+HTH_24	PF13412.9	48	tr|Q6AAR7|Q6AAR7_CUTAK	-	769	1.4e-07	31.1	0.1	1	1	1.6e-10	3.9e-07	29.6	0.1	8	47	17	56	16	57	0.97	Winged helix-turn-helix DNA-binding
+Response_reg	PF00072.27	112	tr|Q6A828|Q6A828_CUTAK	-	236	3.5e-28	98.2	0.0	1	1	5.3e-32	5.2e-28	97.6	0.0	1	112	10	119	10	119	0.99	Response regulator receiver domain
+Trans_reg_C	PF00486.31	77	tr|Q6A828|Q6A828_CUTAK	-	236	4.4e-26	90.9	1.7	2	2	4.9e-30	4.8e-26	90.8	0.2	1	77	153	229	153	229	0.98	Transcriptional regulatory protein, C terminal
+Response_reg	PF00072.27	112	tr|Q6ABI8|Q6ABI8_CUTAK	-	227	1.3e-27	96.3	0.0	1	1	2.5e-31	2.5e-27	95.4	0.0	1	112	3	112	3	112	0.98	Response regulator receiver domain
+Trans_reg_C	PF00486.31	77	tr|Q6ABI8|Q6ABI8_CUTAK	-	227	2.5e-22	78.9	0.1	1	1	5.9e-26	5.8e-22	77.7	0.1	2	77	148	223	147	223	0.98	Transcriptional regulatory protein, C terminal
+Sigma70_r2	PF04542.17	71	tr|Q6AAS2|Q6AAS2_CUTAK	-	191	3.1e-15	55.8	0.5	1	1	1.2e-18	6e-15	54.9	0.5	2	70	33	99	32	100	0.94	Sigma-70 region 2
+Sigma70_r4_2	PF08281.15	54	tr|Q6AAS2|Q6AAS2_CUTAK	-	191	1.1e-11	44.3	0.0	1	1	3.9e-15	1.9e-11	43.6	0.0	2	53	131	182	130	183	0.96	Sigma-70, region 4
+LacI	PF00356.24	46	tr|Q6A5G1|Q6A5G1_CUTAK	-	335	1.5e-15	56.8	1.4	1	1	1.1e-18	3.6e-15	55.6	1.4	1	46	9	54	9	54	0.99	Bacterial regulatory proteins, lacI family
+Peripla_BP_3	PF13377.9	166	tr|Q6A5G1|Q6A5G1_CUTAK	-	335	1.2e-28	100.5	1.1	3	3	3.8e-32	1.2e-28	100.5	1.1	2	165	179	334	178	335	0.89	Periplasmic binding protein-like domain
+GntR	PF00392.24	64	tr|Q6A9S0|Q6A9S0_CUTAK	-	235	2.7e-11	43.1	1.3	1	1	6e-15	5.9e-11	42.0	1.3	8	64	15	70	8	70	0.94	Bacterial regulatory proteins, gntR family
+FCD	PF07729.15	125	tr|Q6A9S0|Q6A9S0_CUTAK	-	235	1.1e-22	80.9	8.6	2	2	1.1e-26	1.1e-22	80.9	8.6	3	123	101	219	100	221	0.94	FCD domain
+Aminotran_1_2	PF00155.24	363	tr|Q6A949|Q6A949_CUTAK	-	470	9.5e-14	51.5	0.0	1	1	1.8e-17	1.8e-13	50.6	0.0	32	336	132	426	108	432	0.86	Aminotransferase class I and II
+GntR	PF00392.24	64	tr|Q6A949|Q6A949_CUTAK	-	470	4.2e-13	48.9	0.1	1	3	4.3e-17	4.2e-13	48.9	0.1	4	64	23	83	20	83	0.96	Bacterial regulatory proteins, gntR family
+MarR	PF01047.25	59	tr|Q6AA82|Q6AA82_CUTAK	-	205	3.5e-13	49.3	0.0	1	2	0.88	4.3e+03	-2.2	0.0	18	34	22	38	21	41	0.80	MarR family
+MarR_2	PF12802.10	61	tr|Q6AA82|Q6AA82_CUTAK	-	205	5.6e-08	32.8	0.1	1	2	2.8	1.4e+04	-3.6	0.0	36	44	80	88	78	89	0.75	MarR family
+MarR	PF01047.25	59	tr|Q6AA82|Q6AA82_CUTAK	-	205	3.5e-13	49.3	0.0	2	2	2.4e-16	1.2e-12	47.6	0.0	1	57	98	155	98	156	0.95	MarR family
+Sugar-bind	PF04198.16	257	tr|Q6A8F0|Q6A8F0_CUTAK	-	379	4.4e-29	101.5	0.0	1	1	5.6e-33	5.5e-29	101.2	0.0	4	257	129	377	126	377	0.93	Putative sugar-binding domain
+MarR_2	PF12802.10	61	tr|Q6A8F0|Q6A8F0_CUTAK	-	379	2.4e-05	24.4	1.0	1	2	1.1e-08	0.00011	22.3	0.4	15	53	86	123	73	132	0.83	MarR family
+Response_reg	PF00072.27	112	tr|Q6A657|Q6A657_CUTAK	-	243	1.4e-24	86.5	0.0	1	1	2.2e-28	2.2e-24	85.9	0.0	1	111	20	129	20	130	0.99	Response regulator receiver domain
+Trans_reg_C	PF00486.31	77	tr|Q6A657|Q6A657_CUTAK	-	243	6.9e-28	96.7	0.1	2	2	2.6e-30	2.5e-26	91.7	0.1	1	77	165	239	165	239	0.97	Transcriptional regulatory protein, C terminal
+MerR	PF00376.26	38	tr|Q6A8T4|Q6A8T4_CUTAK	-	237	1e-14	54.1	0.4	1	3	5.4e-15	3.6e-11	42.8	0.0	1	38	7	48	7	48	0.89	MerR family regulatory protein
+MerR_2	PF13591.9	84	tr|Q6A8T4|Q6A8T4_CUTAK	-	237	0.0005	19.9	0.0	2	2	1e-05	0.066	13.1	0.0	4	51	125	170	122	172	0.84	MerR HTH family regulatory protein
+MerR	PF00376.26	38	tr|Q6A8T4|Q6A8T4_CUTAK	-	237	1e-14	54.1	0.4	3	3	0.75	4.9e+03	-2.5	0.0	21	27	190	196	189	204	0.61	MerR family regulatory protein
+Cupin_2	PF07883.14	71	tr|Q6A5Q1|Q6A5Q1_CUTAK	-	288	6.9e-14	51.4	0.0	1	1	2.4e-17	1.2e-13	50.7	0.0	3	70	210	279	208	280	0.94	Cupin domain
+HTH_3	PF01381.25	55	tr|Q6A5Q1|Q6A5Q1_CUTAK	-	288	1.4e-08	34.8	0.0	1	1	4.1e-12	2e-08	34.3	0.0	1	52	110	161	110	164	0.94	Helix-turn-helix
+Response_reg	PF00072.27	112	tr|Q6ABR9|Q6ABR9_CUTAK	-	218	1.5e-29	102.5	0.2	1	1	5.5e-33	2.2e-29	102.0	0.2	1	112	7	119	7	119	0.98	Response regulator receiver domain
+GerE	PF00196.22	57	tr|Q6ABR9|Q6ABR9_CUTAK	-	218	2.2e-17	62.5	0.1	1	1	8.3e-21	3.3e-17	62.0	0.1	1	57	156	212	156	212	0.97	Bacterial regulatory proteins, luxR family
+ATP-cone	PF03477.19	86	sp|Q6A8Y9|NRDR_CUTAK	-	168	3.4e-13	50.1	0.0	1	1	2.8e-17	5.4e-13	49.4	0.0	1	83	46	131	46	134	0.97	ATP cone domain
+HTH_30	PF13556.9	59	tr|Q6A925|Q6A925_CUTAK	-	413	1.2e-19	70.0	0.0	1	2	1.1	1.1e+04	-3.6	0.0	7	22	25	40	24	41	0.79	PucR C-terminal helix-turn-helix domain
+HTH_30	PF13556.9	59	tr|Q6A925|Q6A925_CUTAK	-	413	1.2e-19	70.0	0.0	2	2	3.4e-23	3.3e-19	68.6	0.0	1	58	350	407	350	408	0.96	PucR C-terminal helix-turn-helix domain
+GGDEF_2	PF17853.4	117	tr|Q6A925|Q6A925_CUTAK	-	413	8.2e-13	48.8	2.2	1	1	3.1e-16	3e-12	46.9	2.2	3	116	190	302	188	303	0.87	GGDEF-like domain
+HTH_6	PF01418.20	77	tr|Q6A765|Q6A765_CUTAK	-	296	3.5e-07	30.2	0.0	1	1	6.6e-11	6.5e-07	29.4	0.0	11	76	24	89	21	90	0.94	Helix-turn-helix domain, rpiR family
+SIS	PF01380.25	131	tr|Q6A765|Q6A765_CUTAK	-	296	9.4e-06	25.6	0.3	1	1	1.7e-09	1.7e-05	24.8	0.3	48	130	187	266	174	267	0.83	SIS domain
+Sigma70_r3	PF04539.19	78	tr|Q6A8Y2|Q6A8Y2_CUTAK	-	506	5.4e-28	97.0	1.2	1	2	3.5e-31	1.7e-27	95.4	0.5	1	77	352	428	352	429	0.98	Sigma-70 region 3
+Sigma70_r4	PF04545.19	50	tr|Q6A8Y2|Q6A8Y2_CUTAK	-	506	3.1e-19	68.4	1.0	2	2	1.1e-21	5.4e-18	64.4	0.1	1	50	441	494	441	494	0.98	Sigma-70, region 4
+Sigma70_r2	PF04542.17	71	tr|Q6A8Y2|Q6A8Y2_CUTAK	-	506	3.1e-22	78.3	0.4	1	2	1.9e-25	9.1e-22	76.8	0.2	1	70	273	342	273	343	0.97	Sigma-70 region 2
+Sigma70_r1_2	PF00140.23	34	tr|Q6A8Y2|Q6A8Y2_CUTAK	-	506	2.9e-14	52.9	0.1	1	2	2.9e-17	1.4e-13	50.7	0.0	1	34	207	240	207	240	0.97	Sigma-70 factor, region 1.2
+MerR_1	PF13411.9	69	tr|Q6A663|Q6A663_CUTAK	-	153	5.8e-17	61.7	0.2	1	2	1.6e-20	1e-16	60.8	0.1	3	68	26	92	24	93	0.92	MerR HTH family regulatory protein
+IclR	PF01614.21	128	tr|Q6A7Z8|Q6A7Z8_CUTAK	-	239	3.5e-17	62.6	0.1	1	1	9.1e-20	8.9e-16	58.1	0.1	7	126	125	231	120	232	0.89	Bacterial transcriptional regulator
+HTH_IclR	PF09339.13	52	tr|Q6A7Z8|Q6A7Z8_CUTAK	-	239	1.8e-09	37.4	2.5	1	3	1.8e-13	1.8e-09	37.4	2.5	2	51	10	57	9	58	0.95	IclR helix-turn-helix domain
+DeoRC	PF00455.25	160	tr|Q6ABK0|Q6ABK0_CUTAK	-	228	6.7e-40	136.8	0.0	1	1	8.7e-44	8.5e-40	136.5	0.0	2	158	52	207	51	209	0.99	DeoR C terminal sensor domain
+HTH_DeoR	PF08220.15	57	tr|Q6ABK0|Q6ABK0_CUTAK	-	228	5.9e-09	35.7	0.0	1	1	1e-12	9.8e-09	35.0	0.0	16	56	2	42	1	43	0.94	DeoR-like helix-turn-helix domain
+TetR_N	PF00440.26	47	tr|Q6A9I0|Q6A9I0_CUTAK	-	202	7.2e-14	51.4	0.0	1	1	2e-17	1.3e-13	50.6	0.0	1	43	13	55	13	57	0.95	Bacterial regulatory proteins, tetR family
+TetR_C_14	PF17754.4	112	tr|Q6A9I0|Q6A9I0_CUTAK	-	202	0.00043	20.4	1.6	1	1	1.1e-07	0.00071	19.7	1.6	31	108	107	187	77	191	0.87	MftR C-terminal domain
+Peripla_BP_3	PF13377.9	166	tr|Q6A7R0|Q6A7R0_CUTAK	-	336	1.7e-35	122.8	1.1	1	1	4.6e-39	3e-35	122.0	1.1	1	166	174	332	174	332	0.89	Periplasmic binding protein-like domain
+LacI	PF00356.24	46	tr|Q6A7R0|Q6A7R0_CUTAK	-	336	1.1e-14	54.1	0.0	1	1	3e-18	2e-14	53.2	0.0	1	46	5	50	5	50	0.99	Bacterial regulatory proteins, lacI family
+ROK	PF00480.23	294	tr|Q6A6D9|Q6A6D9_CUTAK	-	377	1.1e-16	61.3	0.0	1	2	4e-15	4e-11	43.1	0.0	14	155	109	248	103	255	0.85	ROK family
+ROK	PF00480.23	294	tr|Q6A6D9|Q6A6D9_CUTAK	-	377	1.1e-16	61.3	0.0	2	2	5.8e-07	0.0057	16.3	0.0	193	293	270	368	253	369	0.83	ROK family
+FCD	PF07729.15	125	tr|Q6A6A1|Q6A6A1_CUTAK	-	244	1.8e-16	60.8	3.5	1	1	3.5e-20	3.4e-16	59.9	3.5	1	124	115	231	115	232	0.93	FCD domain
+GntR	PF00392.24	64	tr|Q6A6A1|Q6A6A1_CUTAK	-	244	1.4e-14	53.5	0.1	1	1	3.3e-18	3.2e-14	52.4	0.1	6	63	22	79	19	80	0.95	Bacterial regulatory proteins, gntR family
+DeoRC	PF00455.25	160	tr|Q6A904|Q6A904_CUTAK	-	267	2.7e-41	141.3	1.7	1	1	6.9e-45	3.4e-41	141.0	1.7	3	159	84	241	82	242	0.97	DeoR C terminal sensor domain
+HTH_DeoR	PF08220.15	57	tr|Q6A904|Q6A904_CUTAK	-	267	3.4e-12	46.0	0.2	1	1	1.9e-15	9.3e-12	44.6	0.2	1	53	15	67	15	70	0.95	DeoR-like helix-turn-helix domain
+HTH_11	PF08279.15	55	tr|Q6A904|Q6A904_CUTAK	-	267	5.4e-05	23.2	0.2	2	2	0.81	4e+03	-2.0	0.0	36	46	249	259	248	263	0.80	HTH domain
+Sugar-bind	PF04198.16	257	tr|Q6A9D2|Q6A9D2_CUTAK	-	314	1.8e-55	188.0	0.2	1	1	6.9e-59	2.2e-55	187.7	0.2	2	256	58	310	57	311	0.96	Putative sugar-binding domain
+Sigma70_r4	PF04545.19	50	tr|Q6A9D2|Q6A9D2_CUTAK	-	314	9.5e-06	25.2	0.5	1	1	7.1e-09	2.3e-05	23.9	0.5	15	47	15	48	10	48	0.90	Sigma-70, region 4
+DNA_binding_1	PF01035.23	81	tr|Q6A9V0|Q6A9V0_CUTAK	-	105	4.3e-10	39.6	0.1	1	1	2.7e-14	5.4e-10	39.3	0.1	5	66	7	64	3	77	0.85	6-O-methylguanine DNA methyltransferase, DNA binding domain
+Peripla_BP_3	PF13377.9	166	tr|Q6A7G6|Q6A7G6_CUTAK	-	361	1.7e-31	109.8	0.5	1	1	5.9e-35	2.9e-31	109.1	0.5	1	166	172	331	172	331	0.89	Periplasmic binding protein-like domain
+LacI	PF00356.24	46	tr|Q6A7G6|Q6A7G6_CUTAK	-	361	3.6e-14	52.4	0.0	1	1	1.9e-17	9.4e-14	51.1	0.0	1	44	5	48	5	49	0.98	Bacterial regulatory proteins, lacI family
+HTH_17	PF12728.10	51	tr|Q6AAG0|Q6AAG0_CUTAK	-	142	2e-10	40.9	0.0	1	1	1.2e-13	3.3e-10	40.1	0.0	4	47	13	57	12	60	0.94	Helix-turn-helix domain
+TOBE	PF03459.20	64	tr|Q6AAG0|Q6AAG0_CUTAK	-	142	9e-10	38.8	1.6	1	1	5.1e-13	1.4e-09	38.1	1.6	2	63	75	135	74	136	0.96	TOBE domain
+HTH_AsnC-type	PF13404.9	42	tr|Q6A8E6|Q6A8E6_CUTAK	-	163	4.7e-15	55.3	0.1	1	1	2.4e-18	7.9e-15	54.6	0.1	2	42	17	57	16	57	0.97	AsnC-type helix-turn-helix domain
+AsnC_trans_reg	PF01037.24	75	tr|Q6A8E6|Q6A8E6_CUTAK	-	163	6.5e-09	35.8	0.0	1	1	2.9e-12	9.3e-09	35.3	0.0	19	74	98	151	82	152	0.86	Lrp/AsnC ligand binding domain
+TetR_N	PF00440.26	47	tr|Q6AAD4|Q6AAD4_CUTAK	-	227	1.3e-17	63.4	0.1	1	1	2.4e-21	2.4e-17	62.6	0.1	1	45	27	71	27	73	0.96	Bacterial regulatory proteins, tetR family
+TetR_C_32	PF19344.2	139	tr|Q6AAD4|Q6AAD4_CUTAK	-	227	4.5e-05	23.7	0.0	1	1	8.7e-09	8.6e-05	22.8	0.0	2	129	85	206	81	214	0.82	Tetracyclin repressor-like, C-terminal domain
+LysR_substrate	PF03466.23	209	tr|Q6A6A6|Q6A6A6_CUTAK	-	314	1.3e-41	142.4	5.9	1	1	2.1e-45	2.1e-41	141.8	5.9	7	206	92	293	87	295	0.98	LysR substrate binding domain
+HTH_1	PF00126.30	60	tr|Q6A6A6|Q6A6A6_CUTAK	-	314	1.6e-19	69.7	0.1	1	1	3.6e-23	3.5e-19	68.6	0.1	1	60	3	62	3	62	0.98	Bacterial regulatory helix-turn-helix protein, lysR family
+RNA_pol_A_CTD	PF03118.18	67	sp|Q6A6R1|RPOA_CUTAK	-	338	5e-28	96.8	0.2	1	1	1.4e-31	9.4e-28	95.9	0.2	7	67	243	303	239	303	0.94	Bacterial RNA polymerase, alpha chain C terminal domain
+RNA_pol_A_bac	PF01000.29	112	sp|Q6A6R1|RPOA_CUTAK	-	338	1.3e-23	83.6	0.0	1	1	4e-27	2.6e-23	82.6	0.0	10	109	54	149	50	152	0.91	RNA polymerase Rpb3/RpoA insert domain
+TetR_N	PF00440.26	47	tr|Q6A626|Q6A626_CUTAK	-	211	1.1e-07	31.6	0.1	1	1	1.1e-11	2.2e-07	30.7	0.1	12	46	23	57	20	58	0.93	Bacterial regulatory proteins, tetR family
+zf-dskA_traR	PF01258.20	36	tr|Q6A9P4|Q6A9P4_CUTAK	-	146	1.1e-12	47.8	2.2	1	1	8.9e-17	1.8e-12	47.1	2.2	4	36	113	145	110	145	0.95	Prokaryotic dksA/traR C4-type zinc finger
+DeoRC	PF00455.25	160	tr|Q6ABT6|Q6ABT6_CUTAK	-	252	7.9e-31	107.3	0.2	1	1	1.5e-34	9.9e-31	107.0	0.2	2	158	74	229	73	231	0.98	DeoR C terminal sensor domain
+HTH_DeoR	PF08220.15	57	tr|Q6ABT6|Q6ABT6_CUTAK	-	252	1.1e-11	44.4	0.1	1	1	3.3e-15	2.2e-11	43.5	0.1	15	54	19	58	6	60	0.84	DeoR-like helix-turn-helix domain
+SNF2-rel_dom	PF00176.26	318	tr|Q6A7E5|Q6A7E5_CUTAK	-	958	7.1e-14	51.5	0.0	1	1	2.1e-17	1.4e-13	50.6	0.0	49	209	127	288	100	314	0.80	SNF2-related domain
+Helicase_C	PF00271.34	111	tr|Q6A7E5|Q6A7E5_CUTAK	-	958	4e-17	62.7	0.1	2	2	2.2e-19	1.4e-15	57.7	0.1	8	111	431	545	424	545	0.83	Helicase conserved C-terminal domain
+LacI	PF00356.24	46	tr|Q6A5C9|Q6A5C9_CUTAK	-	335	2.2e-15	56.3	0.1	1	1	1.4e-18	6.7e-15	54.7	0.1	1	44	12	55	12	57	0.97	Bacterial regulatory proteins, lacI family
+Peripla_BP_3	PF13377.9	166	tr|Q6A5C9|Q6A5C9_CUTAK	-	335	5.9e-28	98.3	0.1	2	2	3.3e-31	1.6e-27	96.9	0.1	2	165	174	334	173	335	0.84	Periplasmic binding protein-like domain
+HTH_38	PF13936.9	44	tr|Q6A872|Q6A872_CUTAK	-	265	1.6e-05	24.7	0.0	1	1	1.7e-09	3.4e-05	23.6	0.0	15	37	14	36	11	41	0.90	Helix-turn-helix domain
+HTH_5	PF01022.23	47	tr|Q6A7H0|Q6A7H0_CUTAK	-	254	7.6e-10	38.6	0.0	1	1	7.8e-13	1.4e-09	37.8	0.0	1	47	27	74	27	74	0.95	Bacterial regulatory protein, arsR family
+TrmB	PF01978.22	68	tr|Q6A7H0|Q6A7H0_CUTAK	-	254	6.9e-06	26.0	0.0	2	2	4.9	8.8e+03	-3.2	0.0	9	29	199	219	196	224	0.72	Sugar-specific transcriptional regulator TrmB
+HTH_Crp_2	PF13545.9	68	tr|Q6A7H0|Q6A7H0_CUTAK	-	254	0.0001	22.4	0.1	2	2	1.2	2.1e+03	-1.1	0.0	16	29	228	242	203	242	0.65	Crp-like helix-turn-helix domain
+Sigma70_r2	PF04542.17	71	tr|Q6A8A1|Q6A8A1_CUTAK	-	225	8.3e-19	67.3	0.5	1	1	3.9e-22	1.9e-18	66.1	0.5	4	71	31	96	29	96	0.96	Sigma-70 region 2
+Sigma70_r4_2	PF08281.15	54	tr|Q6A8A1|Q6A8A1_CUTAK	-	225	1.9e-16	59.6	0.1	2	2	1.2e-19	5.8e-16	58.0	0.0	2	54	135	187	134	187	0.98	Sigma-70, region 4
+KH_5	PF13184.9	69	tr|Q6A7M4|Q6A7M4_CUTAK	-	323	1e-23	83.3	0.0	1	1	3.9e-27	2.6e-23	82.1	0.0	1	69	208	276	208	276	0.98	NusA-like KH domain
+NusA_N	PF08529.14	120	tr|Q6A7M4|Q6A7M4_CUTAK	-	323	2.1e-16	60.5	0.0	1	2	2.6e-11	1.7e-07	31.8	0.0	4	56	6	58	5	62	0.89	NusA N-terminal domain
+S1	PF00575.26	75	tr|Q6A7M4|Q6A7M4_CUTAK	-	323	0.00077	19.9	2.3	1	2	3.4e-07	0.0022	18.4	0.7	4	71	111	172	109	176	0.89	S1 RNA binding domain
+GntR	PF00392.24	64	tr|Q6ABE4|Q6ABE4_CUTAK	-	273	1e-15	57.2	0.2	1	1	2.5e-19	2.4e-15	56.0	0.2	5	60	53	108	51	114	0.93	Bacterial regulatory proteins, gntR family
+FCD	PF07729.15	125	tr|Q6ABE4|Q6ABE4_CUTAK	-	273	1.3e-16	61.2	9.2	2	2	1.4e-20	1.3e-16	61.2	9.2	1	124	139	263	139	264	0.93	FCD domain
+Arg_repressor_C	PF02863.21	68	tr|Q6AA75|Q6AA75_CUTAK	-	187	1.5e-20	72.9	0.1	1	1	2.3e-24	2.2e-20	72.4	0.1	3	67	107	171	105	172	0.94	Arginine repressor, C-terminal domain
+Arg_repressor	PF01316.24	70	tr|Q6AA75|Q6AA75_CUTAK	-	187	6.5e-18	64.4	0.0	1	1	1.1e-21	1.1e-17	63.7	0.0	1	66	19	84	19	87	0.96	Arginine repressor, DNA binding domain
+HTH_26	PF13443.9	63	tr|Q6A7B8|Q6A7B8_CUTAK	-	78	1.2e-18	67.4	0.1	1	1	2.9e-22	1.4e-18	67.2	0.1	2	62	12	70	11	71	0.98	Cro/C1-type HTH DNA-binding domain
+MarR_2	PF12802.10	61	tr|Q6A5K5|Q6A5K5_CUTAK	-	177	1.3e-09	38.0	0.4	1	2	7.7e-13	2.5e-09	37.1	0.1	2	60	54	113	53	114	0.94	MarR family
+MraZ	PF02381.21	72	sp|Q6A9R1|MRAZ_CUTAK	-	142	6.5e-37	125.5	0.0	1	2	1.6e-20	3.2e-16	59.2	0.0	1	71	1	70	1	71	0.95	MraZ protein, putative antitoxin-like
+MraZ	PF02381.21	72	sp|Q6A9R1|MRAZ_CUTAK	-	142	6.5e-37	125.5	0.0	2	2	3.2e-22	6.3e-18	64.6	0.0	2	67	73	137	72	141	0.92	MraZ protein, putative antitoxin-like
+Peripla_BP_3	PF13377.9	166	tr|Q6A645|Q6A645_CUTAK	-	333	3e-31	109.0	1.7	1	1	1.2e-34	5.8e-31	108.1	1.7	1	165	172	322	172	323	0.88	Periplasmic binding protein-like domain
+LacI	PF00356.24	46	tr|Q6A645|Q6A645_CUTAK	-	333	1.9e-07	30.9	0.4	1	3	1.4e-10	6.9e-07	29.1	0.0	2	43	11	55	10	57	0.87	Bacterial regulatory proteins, lacI family
+MarR_2	PF12802.10	61	tr|Q6A9D3|Q6A9D3_CUTAK	-	142	5.4e-10	39.3	0.0	1	1	2.1e-13	8.4e-10	38.7	0.0	4	61	27	83	24	83	0.94	MarR family
+Peripla_BP_3	PF13377.9	166	tr|Q6A5R6|Q6A5R6_CUTAK	-	336	3.4e-30	105.6	0.3	1	1	2e-33	6.6e-30	104.7	0.3	1	166	177	331	177	331	0.89	Periplasmic binding protein-like domain
+LacI	PF00356.24	46	tr|Q6A5R6|Q6A5R6_CUTAK	-	336	3.2e-17	62.1	2.2	1	1	1.7e-20	5.7e-17	61.4	2.2	2	46	14	58	13	58	0.98	Bacterial regulatory proteins, lacI family
+Response_reg	PF00072.27	112	tr|Q6AAV2|Q6AAV2_CUTAK	-	226	1.7e-28	99.2	0.0	1	1	2.5e-32	2.4e-28	98.6	0.0	1	112	4	113	4	113	0.99	Response regulator receiver domain
+Trans_reg_C	PF00486.31	77	tr|Q6AAV2|Q6AAV2_CUTAK	-	226	3.5e-28	97.6	0.1	1	1	6.5e-32	6.4e-28	96.8	0.1	2	77	149	224	148	224	0.97	Transcriptional regulatory protein, C terminal
+DeoRC	PF00455.25	160	tr|Q6A5D3|Q6A5D3_CUTAK	-	268	2.9e-46	157.5	0.0	1	1	9.4e-50	4.6e-46	156.8	0.0	3	159	85	240	83	241	0.98	DeoR C terminal sensor domain
+HTH_DeoR	PF08220.15	57	tr|Q6A5D3|Q6A5D3_CUTAK	-	268	7.7e-13	48.1	0.1	1	1	2.9e-16	1.4e-12	47.3	0.1	1	53	15	67	15	70	0.95	DeoR-like helix-turn-helix domain
+Response_reg	PF00072.27	112	tr|Q6A671|Q6A671_CUTAK	-	224	1.3e-26	93.1	0.1	1	1	5e-30	1.9e-26	92.5	0.1	2	112	8	119	7	119	0.98	Response regulator receiver domain
+GerE	PF00196.22	57	tr|Q6A671|Q6A671_CUTAK	-	224	3.8e-18	64.9	0.1	1	1	1.5e-21	5.7e-18	64.4	0.1	2	56	159	213	158	214	0.96	Bacterial regulatory proteins, luxR family
+RNA_pol_Rpb6	PF01192.25	52	sp|Q6A8H5|RPOZ_CUTAK	-	115	4.7e-15	55.4	0.1	1	1	4.5e-19	8.8e-15	54.5	0.1	1	50	16	78	16	79	0.82	RNA polymerase Rpb6
+UTRA	PF07702.16	141	tr|Q6AAK9|Q6AAK9_CUTAK	-	247	1.7e-34	118.9	0.1	1	1	4.3e-38	2.8e-34	118.1	0.1	2	140	104	239	103	240	0.96	UTRA domain
+GntR	PF00392.24	64	tr|Q6AAK9|Q6AAK9_CUTAK	-	247	3e-14	52.6	0.7	1	1	8.4e-18	5.5e-14	51.7	0.7	3	64	22	83	20	83	0.97	Bacterial regulatory proteins, gntR family
+ROK	PF00480.23	294	tr|Q6ABP0|Q6ABP0_CUTAK	-	403	7e-43	147.3	0.0	1	1	8.6e-47	8.4e-43	147.0	0.0	2	292	90	390	89	392	0.89	ROK family
+MarR_2	PF12802.10	61	tr|Q6ABP0|Q6ABP0_CUTAK	-	403	9e-09	35.4	0.4	1	1	2.6e-12	2.5e-08	33.9	0.4	10	58	23	68	18	71	0.85	MarR family
+Response_reg	PF00072.27	112	tr|Q6A987|Q6A987_CUTAK	-	218	1.3e-26	93.1	0.4	1	1	6.1e-30	2.4e-26	92.2	0.4	1	109	3	111	3	114	0.97	Response regulator receiver domain
+GerE	PF00196.22	57	tr|Q6A987|Q6A987_CUTAK	-	218	2.5e-17	62.4	0.5	1	1	1e-20	4e-17	61.7	0.5	2	57	149	204	148	204	0.97	Bacterial regulatory proteins, luxR family
+HTH_20	PF12840.10	61	tr|Q6ABN1|Q6ABN1_CUTAK	-	193	1.3e-05	25.2	0.5	1	1	1.2e-08	2.9e-05	24.1	0.5	17	60	25	69	22	70	0.90	Helix-turn-helix domain
+PaaX	PF07848.15	70	tr|Q6ABN1|Q6ABN1_CUTAK	-	193	0.00069	19.9	0.7	2	2	0.092	2.3e+02	2.2	0.0	18	36	119	137	111	140	0.81	PaaX-like protein
+Transcrip_reg	PF01709.23	239	sp|Q6A8L0|Y1157_CUTAK	-	264	5.6e-86	288.0	0.4	1	1	3.2e-90	6.3e-86	287.8	0.4	1	239	5	250	5	250	0.97	Transcriptional regulator
+GntR	PF00392.24	64	tr|Q6A9Y4|Q6A9Y4_CUTAK	-	241	1.1e-19	70.0	0.1	1	1	9.6e-23	1.7e-19	69.3	0.1	2	64	3	64	2	64	0.95	Bacterial regulatory proteins, gntR family
+UTRA	PF07702.16	141	tr|Q6A9Y4|Q6A9Y4_CUTAK	-	241	8.8e-35	119.8	0.0	2	2	1.3e-37	2.3e-34	118.4	0.0	2	141	85	221	84	221	0.99	UTRA domain
