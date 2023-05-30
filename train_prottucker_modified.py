@@ -106,6 +106,7 @@ class CustomDataset(torch.utils.data.Dataset):
 
         pos, neg, pos_label, neg_label, pos_sim = self.get_pair(
             anchor_id, anchor_label)
+
         return (anchor, pos, neg, anchor_label, pos_label, neg_label, pos_sim)
 
     def get_unique_labels(self):
@@ -174,7 +175,9 @@ class CustomDataset(torch.utils.data.Dataset):
         pos, neg = None, None
         pos_label, neg_label = None, None
 
+        # if anchor_id != 'Q9F0R1':
         while pos is None or neg is None:
+            print(anchor_id)
             neg_similarity = np.random.randint(self.n_classes)
             pos_similarity = neg_similarity + 1
             try:
@@ -188,21 +191,22 @@ class CustomDataset(torch.utils.data.Dataset):
                 pos_candidates = self.get_rnd_candidates(
                     anchor_label, pos_similarity, is_pos=True)
                 pos_id = random.choice(pos_candidates)
-                
+                # print(len(pos_candidates))
+                # print('cand: {}'.format(pos_id))
                 # ensure that we do not randomly pick the same protein as anchor and positive
                 if pos_id == anchor_id and len(pos_candidates) > 1:
                     while pos_id == anchor_id: # re-draw from the pos. candidates if possible
                         pos_id = random.choice(pos_candidates)
                 # if there is only one protein in a superfamily (anchor==positive without other candidates), re-start picking process
-                elif pos_id == anchor_id and len(pos_candidates) == 1:
-                    continue
+                # elif pos_id == anchor_id and len(pos_candidates) == 1:
+                #     continue
 
                 pos = self.id2embedding[pos_id]
                 pos_label = self.id2label[pos_id]
                 # if we successfully picked anchor, positive and negative candidates, do same sanity checks
                 if pos_label is not None and neg_label is not None:
                     self.check_triplet(anchor_label, pos_label,
-                                       neg_label, neg_similarity, pos_similarity)
+                                    neg_label, neg_similarity, pos_similarity)
                 else: # if no triplet could be formed for a given combination of similarities/classes
                     continue
 
@@ -242,7 +246,7 @@ class DataSplitter():
                 len(self.id2embedding)))
 
         # self.cath_label_path = self.data_dir / 'cath-domain-list.txt'
-        self.families_label_path = '/homes/users/martigues/scratch/EAT_BacDBTF_cluster/data/BacDBTF/BacDBTF_morethan50.tsv'
+        self.families_label_path = '/home/maria/EAT_modified/data/BacDBTF/BacDBTF_morethan50.tsv'
         self.id2label, self.label2id, self.family2label = self.parse_label_mapping_families(
                 set(self.id2embedding.keys()))
         with open('family2label.tsv', 'w') as f: 
@@ -965,7 +969,6 @@ def main():
         test_time = time.time() - start
         new_best = saver.check_performance(
             acc, model, epoch, optimizer)  # early stopping class
-
         if new_best is None:  # if the new accuracy was worse than a previous one
             n_bad += 1
             if n_bad >= n_thresh:  # if more than n_bad consecutive epochs were worse, break training
@@ -977,9 +980,9 @@ def main():
         # monitor epoch-wise performance
         epoch_monitor = init_monitor()
         start = time.time()
-    
+
         for train_idx, (X, Y, _) in enumerate(train):  # for each batch in the training set
-            print(X)
+            # print(X)
             X = X.to(device)
             Y = Y.to(device)
             anchor, pos, neg = model(X)

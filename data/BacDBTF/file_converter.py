@@ -6,13 +6,14 @@ import pandas as pd
 import numpy as np
 
 def from_pkl_to_h5():
-	pkl_path = 'BacDBTF_morethan50_650M_embeddings.pkl'
+	pkl_path = 'deepTF_acnes_650M_embeddings.pkl'
 	with open(pkl_path, 'rb') as pkl:
 		embeddings = pickle.load(pkl)['protein_embs']
 
-	with h5py.File('BacDBTF_morethan50_650M_embeddings.h5',"w") as hf:
+	with h5py.File('deepTF_acnes_650M_embeddings.h5',"w") as hf:
 		for seq_id, embedding in embeddings.items():
-			hf.create_dataset(seq_id, data=embedding)
+			key = seq_id.split('|')[1]
+			hf.create_dataset(key, data=embedding)
 
 def generate_200val():
 	# 1. extract randomly a protein for each family in the dataset
@@ -143,4 +144,6 @@ if __name__=='__main__':
 			#	dataset_val200.append(line.strip('>').strip())
 
 	#generate_training_set(dataset_val200)
-	remove_non_existing_families_in_train_from_val()
+	# remove_non_existing_families_in_train_from_val()
+	from_pkl_to_h5()
+
