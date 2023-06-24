@@ -1,15 +1,15 @@
-UniprotID	Domains	Domain_description	
-Q6A5Q5	Whib	Transcription factor WhiB	
-Q6A5Q5	Sigma70_r4	Sigma-70, region 4	
-Q6A5Q5	HTH_11	HTH domain	
-Q6AB82	cNMP_binding	Cyclic nucleotide-binding domain	
-Q6AB82	HTH_Crp_2	Crp-like helix-turn-helix domain	
-Q6AB82	Crp	Bacterial regulatory proteins, crp family	
-Q6A8W5	DUF3071	Protein of unknown function (DUF3071)	
-Q6A8W5	DUF3071	Protein of unknown function (DUF3071)	
+UniprotID	Domains	Domain_description	HMMER_family
+Q6A5Q5	Whib	Transcription factor WhiB	WhiB
+Q6A5Q5	Sigma70_r4	Sigma-70, region 4	WhiB
+Q6A5Q5	HTH_11	HTH domain	WhiB
+Q6AB82	cNMP_binding	Cyclic nucleotide-binding domain	Crp family
+Q6AB82	HTH_Crp_2	Crp-like helix-turn-helix domain	Crp family
+Q6AB82	Crp	Bacterial regulatory proteins, crp family	Crp family
+Q6A8W5	DUF3071	Protein of unknown function (DUF3071)	DUF3071
+Q6A8W5	DUF3071	Protein of unknown function (DUF3071)	DUF3071
 Q6A955	Sigma70_r4	Sigma-70, region 4	Sigma-70
 Q6A955	Sigma70_r2	Sigma-70 region 2	Sigma-70
-Q6A955	HTH_Tnp_ISL3	Helix-turn-helix domain of transposase family ISL3	
+Q6A955	HTH_Tnp_ISL3	Helix-turn-helix domain of transposase family ISL3	Sigma-70
 Q6A795	MarR_2	MarR family	MarR family
 Q6A5I2	HTH_AsnC-type	AsnC-type helix-turn-helix domain	AsnC
 Q6A5I2	HTH_AsnC-type	AsnC-type helix-turn-helix domain	AsnC
@@ -23,15 +23,15 @@ Q6A7V9	Arg_repressor	Arginine repressor, DNA binding domain	ArgR family
 Q6A5K8	MarR	MarR family	MarR family
 Q6AB19	Response_reg	Response regulator receiver domain	luxR family
 Q6AB19	GerE	Bacterial regulatory proteins, luxR family	luxR family
-Q6A740	Whib	Transcription factor WhiB	
-Q6A8Z1	Peptidase_S24	Peptidase S24-like	
-Q6A8Z1	LexA_DNA_bind	LexA DNA binding domain	
-Q6A8M8	HTH_6	Helix-turn-helix domain, rpiR family	
-Q6A8M8	SIS	SIS domain	
-Q6AA10	AMP_N	Aminopeptidase P, N-terminal domain	
-Q6AA10	Peptidase_M24	Metallopeptidase family M24	
-Q6A998	HrcA	HrcA protein C terminal domain	
-Q6A998	HTH_DeoR	DeoR-like helix-turn-helix domain	
+Q6A740	Whib	Transcription factor WhiB	WhiB
+Q6A8Z1	Peptidase_S24	Peptidase S24-like	LexA
+Q6A8Z1	LexA_DNA_bind	LexA DNA binding domain	LexA
+Q6A8M8	HTH_6	Helix-turn-helix domain, rpiR family	RpiR
+Q6A8M8	SIS	SIS domain	RpiR
+Q6AA10	AMP_N	Aminopeptidase P, N-terminal domain	Peptidase_M24
+Q6AA10	Peptidase_M24	Metallopeptidase family M24	Peptidase_M24
+Q6A998	HrcA	HrcA protein C terminal domain	HrcA
+Q6A998	HTH_DeoR	DeoR-like helix-turn-helix domain	HrcA
 Q6A7V8	TetR_N	Bacterial regulatory proteins, tetR family	TetR family
 Q6A7V8	TetR_C_1	Tetracyclin repressor-like, C-terminal domain	TetR family
 Q6A7V8	TetR_C_1	Tetracyclin repressor-like, C-terminal domain	TetR family
@@ -41,47 +41,47 @@ Q6AB10	DeoRC	DeoR C terminal sensor domain	DeoRC
 Q6AB10	HTH_DeoR	DeoR-like helix-turn-helix domain	DeoRC
 Q6AB10	HTH_11	HTH domain	DeoRC
 Q6A793	PadR	Transcriptional regulator PadR-like family	PadR
-Q6ABC9	Peptidase_M78	IrrE N-terminal-like domain	
-Q6ABC9	HTH_3	Helix-turn-helix	
-Q6ABC9	HTH_31	Helix-turn-helix domain	
+Q6ABC9	Peptidase_M78	IrrE N-terminal-like domain	Peptidase_M78
+Q6ABC9	HTH_3	Helix-turn-helix	Peptidase_M78
+Q6ABC9	HTH_31	Helix-turn-helix domain	Peptidase_M78
 Q6AA58	Peripla_BP_3	Periplasmic binding protein-like domain	LacI family
 Q6AA58	LacI	Bacterial regulatory proteins, lacI family	LacI family
-Q6A965	FUR	Ferric uptake regulator family	
-Q6A965	FUR	Ferric uptake regulator family	
+Q6A965	FUR	Ferric uptake regulator family	FUR family
+Q6A965	FUR	Ferric uptake regulator family	FUR family
 Q6AAF7	MarR_2	MarR family	MarR family
 Q6AAY2	Germane	Sporulation and spore germination	Sigma-70
 Q6AAY2	Sigma70_r4	Sigma-70, region 4	Sigma-70
-Q6A7N6	HTH_11	HTH domain	
-Q6A7N6	HTH_11	HTH domain	
-Q6A7N6	PRD	PRD domain	
-Q6A7N6	PTS_EIIA_2	Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2	
-Q6A905	HTH_31	Helix-turn-helix domain	
+Q6A7N6	HTH_11	HTH domain	PRD
+Q6A7N6	HTH_11	HTH domain	PRD
+Q6A7N6	PRD	PRD domain	PRD
+Q6A7N6	PTS_EIIA_2	Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2	PRD
+Q6A905	HTH_31	Helix-turn-helix domain	HTH_31
 Q6ABQ1	Peripla_BP_3	Periplasmic binding protein-like domain	LacI family
 Q6ABQ1	LacI	Bacterial regulatory proteins, lacI family	LacI family
 Q6A638	ROK	ROK family	ROK family
 Q6A638	HTH_24	Winged helix-turn-helix DNA-binding	ROK family
-Q6A5Z4	Response_reg	Response regulator receiver domain	
-Q6A5Z4	Trans_reg_C	Transcriptional regulatory protein, C terminal	
-Q6A5F1	HTH_28	Helix-turn-helix domain	
-Q6A5F1	Sugar-bind	Putative sugar-binding domain	
-Q6A8E0	EPSP_synthase	EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)	
-Q6A8E0	HTH_3	Helix-turn-helix	
-Q6AAH9	Fe_dep_repr_C	Iron dependent repressor, metal binding and dimerisation domain	
-Q6AAH9	DtxR	Diphteria toxin repressor SH3 domain	
-Q6AAH9	Fe_dep_repress	Iron dependent repressor, N-terminal DNA binding domain	
+Q6A5Z4	Response_reg	Response regulator receiver domain	Trans_reg_C
+Q6A5Z4	Trans_reg_C	Transcriptional regulatory protein, C terminal	Trans_reg_C
+Q6A5F1	HTH_28	Helix-turn-helix domain	Sugar-bind
+Q6A5F1	Sugar-bind	Putative sugar-binding domain	Sugar-bind
+Q6A8E0	EPSP_synthase	EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)	EPSP_synthase
+Q6A8E0	HTH_3	Helix-turn-helix	EPSP_synthase
+Q6AAH9	Fe_dep_repr_C	Iron dependent repressor, metal binding and dimerisation domain	DtxR
+Q6AAH9	DtxR	Diphteria toxin repressor SH3 domain	DtxR
+Q6AAH9	Fe_dep_repress	Iron dependent repressor, N-terminal DNA binding domain	DtxR
 Q6ABP2	Sigma70_r4_2	Sigma-70, region 4	Sigma-70
-Q6A8U8	PAS_6	YheO-like PAS domain	
-Q6A8U8	HTH_22	HTH domain	
-Q6AAW7	Trans_reg_C	Transcriptional regulatory protein, C terminal	
-Q6AAR7	GFO_IDH_MocA_C	Oxidoreductase family, C-terminal alpha/beta domain	
+Q6A8U8	PAS_6	YheO-like PAS domain	PAS_6
+Q6A8U8	HTH_22	HTH domain	PAS_6
+Q6AAW7	Trans_reg_C	Transcriptional regulatory protein, C terminal	Trans_reg_C
+Q6AAR7	GFO_IDH_MocA_C	Oxidoreductase family, C-terminal alpha/beta domain	ROK family
 Q6AAR7	ROK	ROK family	ROK family
 Q6AAR7	ROK	ROK family	ROK family
 Q6AAR7	GFO_IDH_MocA	Oxidoreductase family, NAD-binding Rossmann fold	ROK family
 Q6AAR7	HTH_24	Winged helix-turn-helix DNA-binding	ROK family
-Q6A828	Response_reg	Response regulator receiver domain	
-Q6A828	Trans_reg_C	Transcriptional regulatory protein, C terminal	
-Q6ABI8	Response_reg	Response regulator receiver domain	
-Q6ABI8	Trans_reg_C	Transcriptional regulatory protein, C terminal	
+Q6A828	Response_reg	Response regulator receiver domain	Trans_reg_C
+Q6A828	Trans_reg_C	Transcriptional regulatory protein, C terminal	Trans_reg_C
+Q6ABI8	Response_reg	Response regulator receiver domain	Trans_reg_C
+Q6ABI8	Trans_reg_C	Transcriptional regulatory protein, C terminal	Trans_reg_C
 Q6AAS2	Sigma70_r2	Sigma-70 region 2	Sigma-70
 Q6AAS2	Sigma70_r4_2	Sigma-70, region 4	Sigma-70
 Q6A5G1	LacI	Bacterial regulatory proteins, lacI family	LacI family
@@ -95,28 +95,28 @@ Q6AA82	MarR_2	MarR family	MarR family
 Q6AA82	MarR	MarR family	MarR family
 Q6A8F0	Sugar-bind	Putative sugar-binding domain	MarR family
 Q6A8F0	MarR_2	MarR family	MarR family
-Q6A657	Response_reg	Response regulator receiver domain	
-Q6A657	Trans_reg_C	Transcriptional regulatory protein, C terminal	
+Q6A657	Response_reg	Response regulator receiver domain	Trans_reg_C
+Q6A657	Trans_reg_C	Transcriptional regulatory protein, C terminal	Trans_reg_C
 Q6A8T4	MerR	MerR family regulatory protein	MerR family 
 Q6A8T4	MerR_2	MerR HTH family regulatory protein	MerR family 
-Q6A8T4	MerR	MerR family regulatory protein	
-Q6A5Q1	Cupin_2	Cupin domain	
-Q6A5Q1	HTH_3	Helix-turn-helix	
-Q6ABR9	Response_reg	Response regulator receiver domain	
-Q6ABR9	GerE	Bacterial regulatory proteins, luxR family	
-Q6A8Y9	ATP-cone	ATP cone domain	
-Q6A925	HTH_30	PucR C-terminal helix-turn-helix domain	
-Q6A925	HTH_30	PucR C-terminal helix-turn-helix domain	
-Q6A925	GGDEF_2	GGDEF-like domain	
-Q6A765	HTH_6	Helix-turn-helix domain, rpiR family	
-Q6A765	SIS	SIS domain	
+Q6A8T4	MerR	MerR family regulatory protein	MerR family 
+Q6A5Q1	Cupin_2	Cupin domain	Cupin_2
+Q6A5Q1	HTH_3	Helix-turn-helix	Cupin_2
+Q6ABR9	Response_reg	Response regulator receiver domain	LuxR family
+Q6ABR9	GerE	Bacterial regulatory proteins, luxR family	LuxR family
+Q6A8Y9	ATP-cone	ATP cone domain	ATP-cone
+Q6A925	HTH_30	PucR C-terminal helix-turn-helix domain	PucR
+Q6A925	HTH_30	PucR C-terminal helix-turn-helix domain	PucR
+Q6A925	GGDEF_2	GGDEF-like domain	PucR
+Q6A765	HTH_6	Helix-turn-helix domain, rpiR family	RpiR
+Q6A765	SIS	SIS domain	RpiR
 Q6A8Y2	Sigma70_r3	Sigma-70 region 3	Sigma-70
 Q6A8Y2	Sigma70_r4	Sigma-70, region 4	Sigma-70
 Q6A8Y2	Sigma70_r2	Sigma-70 region 2	Sigma-70
 Q6A8Y2	Sigma70_r1_2	Sigma-70 factor, region 1.2	Sigma-70
 Q6A663	MerR_1	MerR HTH family regulatory protein	MerR family 
-Q6A7Z8	IclR	Bacterial transcriptional regulator	
-Q6A7Z8	HTH_IclR	IclR helix-turn-helix domain	
+Q6A7Z8	IclR	Bacterial transcriptional regulator	IclR
+Q6A7Z8	HTH_IclR	IclR helix-turn-helix domain	IclR
 Q6ABK0	DeoRC	DeoR C terminal sensor domain	DeoR
 Q6ABK0	HTH_DeoR	DeoR-like helix-turn-helix domain	DeoR
 Q6A9I0	TetR_N	Bacterial regulatory proteins, tetR family	TetR family
@@ -135,61 +135,61 @@ Q6A9D2	Sigma70_r4	Sigma-70, region 4	Sigma-70
 Q6A9V0	DNA_binding_1	6-O-methylguanine DNA methyltransferase, DNA binding domain	
 Q6A7G6	Peripla_BP_3	Periplasmic binding protein-like domain	LacI family
 Q6A7G6	LacI	Bacterial regulatory proteins, lacI family	LacI family
-Q6AAG0	HTH_17	Helix-turn-helix domain	
-Q6AAG0	TOBE	TOBE domain	
-Q6A8E6	HTH_AsnC-type	AsnC-type helix-turn-helix domain	
-Q6A8E6	AsnC_trans_reg	Lrp/AsnC ligand binding domain	
+Q6AAG0	HTH_17	Helix-turn-helix domain	TOBE
+Q6AAG0	TOBE	TOBE domain	TOBE
+Q6A8E6	HTH_AsnC-type	AsnC-type helix-turn-helix domain	AsnC
+Q6A8E6	AsnC_trans_reg	Lrp/AsnC ligand binding domain	AsnC
 Q6AAD4	TetR_N	Bacterial regulatory proteins, tetR family	TetR family
 Q6AAD4	TetR_C_32	Tetracyclin repressor-like, C-terminal domain	TetR family
-Q6A6A6	LysR_substrate	LysR substrate binding domain	
-Q6A6A6	HTH_1	Bacterial regulatory helix-turn-helix protein, lysR family	
-Q6A6R1	RNA_pol_A_CTD	Bacterial RNA polymerase, alpha chain C terminal domain	
-Q6A6R1	RNA_pol_A_bac	RNA polymerase Rpb3/RpoA insert domain	
+Q6A6A6	LysR_substrate	LysR substrate binding domain	LysR
+Q6A6A6	HTH_1	Bacterial regulatory helix-turn-helix protein, lysR family	LysR
+Q6A6R1	RNA_pol_A_CTD	Bacterial RNA polymerase, alpha chain C terminal domain	RNA_pol
+Q6A6R1	RNA_pol_A_bac	RNA polymerase Rpb3/RpoA insert domain	RNA_pol
 Q6A626	TetR_N	Bacterial regulatory proteins, tetR family	TetR family
-Q6A9P4	zf-dskA_traR	Prokaryotic dksA/traR C4-type zinc finger	
-Q6ABT6	DeoRC	DeoR C terminal sensor domain	
-Q6ABT6	HTH_DeoR	DeoR-like helix-turn-helix domain	
-Q6A7E5	SNF2-rel_dom	SNF2-related domain	
-Q6A7E5	Helicase_C	Helicase conserved C-terminal domain	
-Q6A5C9	LacI	Bacterial regulatory proteins, lacI family	
-Q6A5C9	Peripla_BP_3	Periplasmic binding protein-like domain	
-Q6A872	HTH_38	Helix-turn-helix domain	
-Q6A7H0	HTH_5	Bacterial regulatory protein, arsR family	
-Q6A7H0	TrmB	Sugar-specific transcriptional regulator TrmB	
-Q6A7H0	HTH_Crp_2	Crp-like helix-turn-helix domain	
-Q6A8A1	Sigma70_r2	Sigma-70 region 2	
-Q6A8A1	Sigma70_r4_2	Sigma-70, region 4	
-Q6A7M4	KH_5	NusA-like KH domain	
-Q6A7M4	NusA_N	NusA N-terminal domain	
-Q6A7M4	S1	S1 RNA binding domain	
-Q6ABE4	GntR	Bacterial regulatory proteins, gntR family	
-Q6ABE4	FCD	FCD domain	
-Q6AA75	Arg_repressor_C	Arginine repressor, C-terminal domain	
-Q6AA75	Arg_repressor	Arginine repressor, DNA binding domain	
-Q6A7B8	HTH_26	Cro/C1-type HTH DNA-binding domain	
-Q6A5K5	MarR_2	MarR family	
-Q6A9R1	MraZ	MraZ protein, putative antitoxin-like	
-Q6A9R1	MraZ	MraZ protein, putative antitoxin-like	
-Q6A645	Peripla_BP_3	Periplasmic binding protein-like domain	
-Q6A645	LacI	Bacterial regulatory proteins, lacI family	
-Q6A9D3	MarR_2	MarR family	
-Q6A5R6	Peripla_BP_3	Periplasmic binding protein-like domain	
-Q6A5R6	LacI	Bacterial regulatory proteins, lacI family	
-Q6AAV2	Response_reg	Response regulator receiver domain	
-Q6AAV2	Trans_reg_C	Transcriptional regulatory protein, C terminal	
-Q6A5D3	DeoRC	DeoR C terminal sensor domain	
-Q6A5D3	HTH_DeoR	DeoR-like helix-turn-helix domain	
-Q6A671	Response_reg	Response regulator receiver domain	
-Q6A671	GerE	Bacterial regulatory proteins, luxR family	
-Q6A8H5	RNA_pol_Rpb6	RNA polymerase Rpb6	
-Q6AAK9	UTRA	UTRA domain	
-Q6AAK9	GntR	Bacterial regulatory proteins, gntR family	
-Q6ABP0	ROK	ROK family	
-Q6ABP0	MarR_2	MarR family	
-Q6A987	Response_reg	Response regulator receiver domain	
-Q6A987	GerE	Bacterial regulatory proteins, luxR family	
-Q6ABN1	HTH_20	Helix-turn-helix domain	
-Q6ABN1	PaaX	PaaX-like protein	
-Q6A8L0	Transcrip_reg	Transcriptional regulator	
-Q6A9Y4	GntR	Bacterial regulatory proteins, gntR family	
-Q6A9Y4	UTRA	UTRA domain	
+Q6A9P4	zf-dskA_traR	Prokaryotic dksA/traR C4-type zinc finger	DksA/TraR family
+Q6ABT6	DeoRC	DeoR C terminal sensor domain	DeoR
+Q6ABT6	HTH_DeoR	DeoR-like helix-turn-helix domain	DeoR
+Q6A7E5	SNF2-rel_dom	SNF2-related domain	Helicase_C
+Q6A7E5	Helicase_C	Helicase conserved C-terminal domain	Helicase_C
+Q6A5C9	LacI	Bacterial regulatory proteins, lacI family	LacI
+Q6A5C9	Peripla_BP_3	Periplasmic binding protein-like domain	LacI
+Q6A872	HTH_38	Helix-turn-helix domain	HTH_38
+Q6A7H0	HTH_5	Bacterial regulatory protein, arsR family	TrmB
+Q6A7H0	TrmB	Sugar-specific transcriptional regulator TrmB	TrmB
+Q6A7H0	HTH_Crp_2	Crp-like helix-turn-helix domain	TrmB
+Q6A8A1	Sigma70_r2	Sigma-70 region 2	Sigma-70
+Q6A8A1	Sigma70_r4_2	Sigma-70, region 4	Sigma-70
+Q6A7M4	KH_5	NusA-like KH domain	NusA
+Q6A7M4	NusA_N	NusA N-terminal domain	NusA
+Q6A7M4	S1	S1 RNA binding domain	NusA
+Q6ABE4	GntR	Bacterial regulatory proteins, gntR family	GntR
+Q6ABE4	FCD	FCD domain	GntR
+Q6AA75	Arg_repressor_C	Arginine repressor, C-terminal domain	ArgR family
+Q6AA75	Arg_repressor	Arginine repressor, DNA binding domain	ArgR family
+Q6A7B8	HTH_26	Cro/C1-type HTH DNA-binding domain	HTH_26
+Q6A5K5	MarR_2	MarR family	MarR family
+Q6A9R1	MraZ	MraZ protein, putative antitoxin-like	MraZ
+Q6A9R1	MraZ	MraZ protein, putative antitoxin-like	MraZ
+Q6A645	Peripla_BP_3	Periplasmic binding protein-like domain	LacI
+Q6A645	LacI	Bacterial regulatory proteins, lacI family	LacI
+Q6A9D3	MarR_2	MarR family	MarR family
+Q6A5R6	Peripla_BP_3	Periplasmic binding protein-like domain	LacI
+Q6A5R6	LacI	Bacterial regulatory proteins, lacI family	LacI
+Q6AAV2	Response_reg	Response regulator receiver domain	Trans_reg_C
+Q6AAV2	Trans_reg_C	Transcriptional regulatory protein, C terminal	Trans_reg_C
+Q6A5D3	DeoRC	DeoR C terminal sensor domain	DeoR
+Q6A5D3	HTH_DeoR	DeoR-like helix-turn-helix domain	DeoR
+Q6A671	Response_reg	Response regulator receiver domain	LuxR family
+Q6A671	GerE	Bacterial regulatory proteins, luxR family	LuxR family
+Q6A8H5	RNA_pol_Rpb6	RNA polymerase Rpb6	RNA_pol_Rpb6
+Q6AAK9	UTRA	UTRA domain	GntR
+Q6AAK9	GntR	Bacterial regulatory proteins, gntR family	GntR
+Q6ABP0	ROK	ROK family	ROK family
+Q6ABP0	MarR_2	MarR family	ROK family
+Q6A987	Response_reg	Response regulator receiver domain	LuxR family
+Q6A987	GerE	Bacterial regulatory proteins, luxR family	LuxR family
+Q6ABN1	HTH_20	Helix-turn-helix domain	PaaX
+Q6ABN1	PaaX	PaaX-like protein	PaaX
+Q6A8L0	Transcrip_reg	Transcriptional regulator	Transcrip_reg
+Q6A9Y4	GntR	Bacterial regulatory proteins, gntR family	GntR
+Q6A9Y4	UTRA	UTRA domain	GntR

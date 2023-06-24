@@ -1,8 +1,10 @@
-import pickle, h5py
+import pickle, h5py, json, statistics
+from urllib.request import urlopen
 from pyexpat import features
 from turtle import color
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
 import matplotlib as matplt
 import matplotlib.cm as cm
@@ -569,7 +571,7 @@ def prottucker_embedding_space_visualisation_by_query(query_h5, lookup_h5, valid
     if validation == True:
         fig.savefig('EAT_validation_training_space.png', format='png', dpi=300)
     else:
-        fig.savefig('EAT_acnes_inference.png', format='png', dpi=300)
+        fig.savefig('EAT_acnes_inference_training.png', format='png', dpi=300)
 
 def prottucker_embeddings_byfamily(query_h5, lookup_h5): 
     '''
@@ -585,18 +587,22 @@ def prottucker_embeddings_byfamily(query_h5, lookup_h5):
     reduced = TSNE(n_jobs=-1, random_state=123, perplexity=40).fit_transform(np.array(list(full_emb.values())))
     df = pd.DataFrame(reduced, columns = ['tSNE 1', 'tSNE 2'])
     df['UniprotID'] = full_emb.keys()
-    df['Type'] = ''
+    df['Family'] = ''
+
+    x = df['tSNE 1'].values
+    y = df['tSNE 2'].values
+
+    annotated_proteins = ['Q6A6R1', 'Q6A6K7', 'Q6A8H5', 'Q6A8Y2', 'Q6A8A1', 'Q6A998', 'Q6A7V9', 'Q6AA75']
+
+    # merge the embeddings with the family labels by UniprotID
+    labelsdf = pd.read_csv('/home/maria/EAT_modified/data/BacDBTF/lookup_queries.csv', header=None)
+    labels_dict = {i:j for i, j in zip(labelsdf[0], labelsdf[1])}
 
     for i in range(len(df.axes[0])): 
         if df.at[i, 'UniprotID'] in query_emb.keys(): 
-            df.at[i, 'Type'] = 'C. acnes'
+            df.at[i, 'Family'] = 'C. acnes'
         else: 
-            df.at[i, 'Type'] = 'BacDBTF'
-
-    # merge the embeddings with the family labels by UniprotID
-    labelsdf = pd.read_csv('/home/maria/EAT_modified/data/BacDBTF/lookup_queries.csv')
-    labels_dict = {i:j for i, j in zip(labelsdf[0], labelsdf[1])}
-    print(labels_dict)
+            df.at[i, 'Family'] = labels_dict[df.at[i, 'UniprotID']]
 
     fig, ax = plt.subplots(1, figsize = (10,10))
 
@@ -605,9 +611,11 @@ def prottucker_embeddings_byfamily(query_h5, lookup_h5):
     familycolors = {}
     i = 0
     for family in set(df['Family'].to_list()):
-        if str(family) != 'nan':
+        if str(family) == 'C. acnes': 
+            familycolors[str(family)] = '#000000'
+        elif str(family) != 'nan':
             familycolors[str(family)] = color_list[i]
-            i += 1
+        i += 1
 
     def familycolormask(mylist, familycolors):
         mylist = [familycolors[str(x)] for x in mylist if x in familycolors.keys()]
@@ -619,22 +627,99 @@ def prottucker_embeddings_byfamily(query_h5, lookup_h5):
         yref_family = subset_ref_family['tSNE 2'].values
         ax.scatter(xref_family, yref_family, c = familycolormask(subset_ref_family['Family'].to_list(), familycolors), alpha = 0.5, label = '{}'.format(family))
     
-    
+    for i, txt in enumerate(df['UniprotID'].to_list()):
+        family_label = list(df.loc[df['UniprotID'] == txt, 'Family'])[0]
+        if txt in annotated_proteins: 
+            ax.scatter(x[i], y[i], c = )
+
+
+
     ax.grid(True)
-    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), title='Type of protein')
-    ax.set_title('Contrastive learning implementation')
-    if validation == True:
-        fig.savefig('EAT_validation_training_space.png', format='png', dpi=300)
-    else:
-        fig.savefig('EAT_acnes_inference.png', format='png', dpi=300)
+    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), title='Families')
 
+    fig.savefig('EAT_acnes_inference_by_family.png', format='png', dpi=300)
 
+def retrieve_uniprot_annotation(eat_results_tsv): 
+
+    df = pd.read_csv(eat_results_tsv, sep='\t')
+    df['Lookup-uniprot-annotation'] = ''
+
+    for i in range(len(df.axes[0])):
+        uniprot = df.at[i, 'Query-ID']
+        url = 'https://rest.uniprot.org/uniprotkb/{}.json'.format(uniprot)
+        response = urlopen(url)
+        data_json = json.loads(response.read())
+        try:
+            df.at[i, 'Query-Label'] = data_json['proteinDescription']['recommendedName']['fullName']['value']
+        except: 
+            df.at[i, 'Query-Label'] = 'No annotation'
+
+    for i in range(len(df.axes[0])):
+        uniprot = df.at[i, 'Lookup-ID']
+        url = 'https://rest.uniprot.org/uniprotkb/{}.json'.format(uniprot)
+        response = urlopen(url)
+        data_json = json.loads(response.read())
+        try:
+            df.at[i, 'Lookup-uniprot-annotation'] = data_json['proteinDescription']['recommendedName']['fullName']['value']
+        except: 
+            df.at[i, 'Lookup-uniprot-annotation'] = 'No annotation'
+
+    df.to_csv('eat_results_mapped.tsv', sep='\t', index=False)
+
+def calculate_mean_distances(eat_results_tsv):
+    df = pd.read_csv(eat_results_tsv, sep='\t', index_col=False)
+    df['Dataset'] = ''
+    annotated_proteins = ['Q6A6R1', 'Q6A6K7', 'Q6A8H5', 'Q6A8Y2', 'Q6A8A1', 'Q6A998', 'Q6A7V9', 'Q6AA75']
+    df['Annotation'] = df['Query-ID'].apply(lambda x: 'Agreement with Uniprot' if x in annotated_proteins else 'Not annotated')
+    embedding_distances = df['Embedding distance'].to_list()
+    mean = sum(embedding_distances)/ len(embedding_distances)
+
+    print('The mean distance of all proteins and their embeddings is: {}'.format(mean))
+    print('The median of all distances: {}'.format(statistics.median(embedding_distances)))
+    print('The standard deviation of the mean of all the distances: {}'.format(statistics.pstdev(embedding_distances)))
+
+    annotated_distances = []
+    for i in range(len(df.axes[0])):
+        uniprot = df.at[i, 'Query-ID']
+        if uniprot in annotated_proteins: 
+            annotated_distances.append(float(df.at[i, 'Embedding distance']))
+
+    mean_annotated = sum(annotated_distances) / len(annotated_distances)
+
+    print('The mean distance of annotated proteins and their embeddings is: {}'.format(mean_annotated))
+    print('The median of annotated distances: {}'.format(statistics.median(annotated_distances)))
+    print('The standard deviation of the mean of annotated distances: {}'.format(statistics.pstdev(annotated_distances)))
+
+    # violin/scatter plot that shows the distribution of embedding distances in the dataset with the annotated proteins highlighted and annptated in the graphs
+
+    fig, ax = plt.subplots(1, figsize = (10,10))
+      
+    ax = sns.violinplot(data=df, x="Dataset", y="Embedding distance", inner=None, linewidth=0, scale="count", color='#9BDEAC')
+    ax = sns.swarmplot(data=df, x="Dataset", y="Embedding distance", hue='Annotation', palette={'Agreement with Uniprot': '#255957', 'Not annotated': '#C33149'})
+    
+    # for i, txt in enumerate(df['Query-ID'].to_list()):
+    #     if txt in annotated_proteins:
+    #         # ax.scatter(0, embedding_distances[i], color='#437C90', alpha=0.5)
+    #         ax.annotate(txt, (0,embedding_distances[i]))
+
+    # ax.set_yticks(range()))
+    ax.set_yticks(np.arange(0, 0.8, 0.05))
+    for violin, alpha in zip(ax.collections[::2], [0.2]):
+        violin.set_alpha(alpha)
+
+    fig.savefig('violin_scatter_CL_distances.png', format='png', dpi=300)
 
 if __name__ == '__main__':
 
-    validation_h5 = '/home/maria/EAT_modified/results/validation_prottucker_embeddings.h5'
-    training_h5 = '/home/maria/EAT_modified/results/training_prottucker_embeddings.h5'
-    query_h5 = '/home/maria/EAT_modified/results/query_prottucker_embeddings.h5'
-    lookup_h5 = '/home/maria/EAT_modified/results/lookup_prottucker_embeddings.h5'
+    # validation_h5 = '/home/maria/EAT_modified/results/validation_prottucker_embeddings.h5'
+    training_h5 = '/home/maria/EAT_modified/results/BacDBTF50_ESM2_wo_acnes/training_prottucker_embeddings.h5'
+    query_h5 = '/home/maria/EAT_modified/results/BacDBTF50_ESM2_wo_acnes/query_prottucker_embeddings.h5'
+    # lookup_h5 = '/home/maria/EAT_modified/results/lookup_prottucker_embeddings.h5'
+    # eat_results_tsv = '/home/maria/EAT_modified/results/BacDBTF50_ESM2_wo_acnes/eat_results_mapped.tsv'
 
-    prottucker_embedding_space_visualisation_by_query(query_h5, training_h5, validation=False)
+
+    # prottucker_embedding_space_visualisation_by_query(query_h5, training_h5, validation=False)
+    prottucker_embeddings_byfamily(query_h5, training_h5)
+
+    # retrieve_uniprot_annotation(eat_results_tsv)
+    # calculate_mean_distances(eat_results_tsv)

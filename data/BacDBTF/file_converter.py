@@ -133,7 +133,31 @@ def remove_non_existing_families_in_train_from_val():
 				hf.create_dataset(seq_id, data=embedding)
 			
 
+def remove_acnes_from_training(): 
+	# make a list with the acnes identifiers to remove 
+	acnes_ids = []
+	with open('deepTF_acnes.fasta', 'r') as fd: 
+		for line in fd: 
+			if line.startswith('>'): 
+				uniprot = line.split('|')[1]
+				acnes_ids.append(uniprot)
 
+	# load the embeddings into a dictionary
+	h5_f = h5py.File('BacDBTF_morethan50_650M_embeddings.h5', 'r')
+	embeddings_dict = {}
+	for key in h5_f.keys(): 
+		embeddings_dict[key] = h5_f[key][()]
+
+	embeddings_dict1 = embeddings_dict.copy()
+	for k, v in embeddings_dict1.items(): 
+		uniprot = k.split('_')[0]
+		if uniprot in acnes_ids: 
+			print(k)
+			del embeddings_dict[k]
+	
+	with h5py.File('BacDBTF_morethan50_WOacnes_650M_embeddings.h5',"w") as hf:
+		for seq_id, embedding in embeddings_dict.items():
+			hf.create_dataset(seq_id, data=embedding)
 
 if __name__=='__main__':
 	# dataset_val200 = generate_200val()
@@ -145,5 +169,6 @@ if __name__=='__main__':
 
 	#generate_training_set(dataset_val200)
 	# remove_non_existing_families_in_train_from_val()
-	from_pkl_to_h5()
+
+	remove_acnes_from_training()
 

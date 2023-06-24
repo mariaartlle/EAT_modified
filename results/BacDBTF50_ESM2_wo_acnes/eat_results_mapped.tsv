@@ -1,0 +1,102 @@
+Query-ID	Query-uniprot-annotation	Query-HMMER-annotation	Lookup-ID	Lookup-Label	Embedding distance	Nearest-Neighbor-Idx	Lookup-uniprot-annotation
+Q6A998	Heat-inducible transcription repressor HrcA	HrcA	Q82BY5	HrcA family	0.0951	1	Heat-inducible transcription repressor HrcA
+Q6A6R1	DNA-directed RNA polymerase subunit alpha	RNA_pol	Q6NJ63	RNA polymerase alpha chain family	0.0997	1	DNA-directed RNA polymerase subunit alpha
+Q6A9R1	Transcriptional regulator MraZ	MraZ	Q04B78	MraZ family	0.1007	1	Transcriptional regulator MraZ
+Q6A8Y2	RNA polymerase sigma factor SigA	Sigma-70	B1VXR4	sigma-70 factor family	0.1179	1	RNA polymerase principal sigma factor HrdB
+Q6A8A1	RNA polymerase sigma factor	Sigma-70	Q7AKG9	sigma-70 factor family	0.1652	1	ECF RNA polymerase sigma factor SigR
+Q6A7V9	Arginine repressor	ArgR family	Q6NHG5	ArgR family	0.1881	1	Arginine repressor
+Q6A872	No annotation	HTH_38	P42074	RNA polymerase beta chain family	0.1949	1	DNA-directed RNA polymerase subunit gamma
+Q6A965	No annotation	FUR family	Q8NNC4	Fur	0.1965	1	No annotation
+Q6AAS2	No annotation	Sigma-70	Q06909	sigma-70 factor family	0.2136	1	RNA polymerase sigma factor CarQ
+Q6A6A6	No annotation	LysR	P44418	LysR	0.2138	1	Hydrogen peroxide-inducible genes activator
+Q6AA75	Arginine repressor	ArgR family	Q6NHG5	ArgR family	0.2548	1	Arginine repressor
+Q6A8H5	DNA-directed RNA polymerase subunit omega	RNA_pol_Rpb6	Q1AVZ4	RNA polymerase subunit omega family	0.2554	1	DNA-directed RNA polymerase subunit omega
+Q6A9D3	No annotation	MarR family	P52003	MarR/SlyA	0.269	1	Multidrug resistance operon repressor
+Q6AB82	No annotation	Crp family	P42427	LysR	0.2701	1	HTH-type transcriptional regulator TfdT
+Q6A955	No annotation	Sigma-70	Q59914	sigma-70 factor family	0.2783	1	RNA polymerase principal sigma factor HrdD
+Q6A5R6	No annotation	LacI	P67668	LysR	0.2803	1	Uncharacterized HTH-type transcriptional regulator Mb2303c
+Q6A7G6	No annotation	LacI family	P52659	LysR	0.2806	1	HTH-type transcriptional regulator AbaB
+Q6ABP0	No annotation	ROK family	P52659	LysR	0.2871	1	HTH-type transcriptional regulator AbaB
+Q6A5Z4	No annotation	Trans_reg_C	O69055	LysR	0.2914	1	Putative HTH-type transcriptional regulator protein PtxE
+Q6A5G1	No annotation	LacI family	P52659	LysR	0.3019	1	HTH-type transcriptional regulator AbaB
+Q6A793	No annotation	PadR	A9CJU2	MarR/SlyA	0.3033	1	No annotation
+Q6A5C9	No annotation	LacI	Q46M54	LysR	0.3088	1	HTH-type transcriptional regulator TfdS
+Q6AAW7	No annotation	Trans_reg_C	P9WMF6	LysR	0.3088	1	Uncharacterized HTH-type transcriptional regulator MT0391
+Q6AA58	No annotation	LacI family	P67668	LysR	0.3125	1	Uncharacterized HTH-type transcriptional regulator Mb2303c
+Q6A765	No annotation	RpiR	P44876	LysR	0.3143	1	Uncharacterized HTH-type transcriptional regulator HI_0775
+Q6A7R0	No annotation	LacI family	P52659	LysR	0.3147	1	HTH-type transcriptional regulator AbaB
+Q6A645	No annotation	LacI	P43160	LysR	0.3235	1	Small neutral protease regulatory protein
+Q6A949	No annotation	GntR family	P67668	LysR	0.3296	1	Uncharacterized HTH-type transcriptional regulator Mb2303c
+Q6A7Z8	No annotation	IclR	P67668	LysR	0.3352	1	Uncharacterized HTH-type transcriptional regulator Mb2303c
+Q6A966	No annotation	luxR family	P42427	LysR	0.3379	1	HTH-type transcriptional regulator TfdT
+Q6A5K5	No annotation	MarR family	A7MXA8	MarR/SlyA	0.3386	1	PadR family transcriptional regulator
+Q6A671	No annotation	LuxR family	O69055	LysR	0.3428	1	Putative HTH-type transcriptional regulator protein PtxE
+Q6A7V8	No annotation	TetR family	P42427	LysR	0.3435	1	HTH-type transcriptional regulator TfdT
+Q6AAD5	No annotation		Q87L53	MarR/SlyA	0.3443	1	Transcriptional regulator
+Q6A5D3	No annotation	DeoR	Q52838	LysR	0.3447	1	Nodulation protein D 1
+Q6ABK0	No annotation	DeoR	C6BU59	transcriptional regulatory Rex family	0.3534	1	Redox-sensing transcriptional repressor Rex
+Q6A795	No annotation	MarR family	P52003	MarR/SlyA	0.3536	1	Multidrug resistance operon repressor
+Q6ABR9	No annotation	LuxR family	P52675	LysR	0.3583	1	HTH-type transcriptional regulator CysB
+Q6AAR7	No annotation	ROK family	Q8RQM5	LysR	0.3617	1	Lysine export transcriptional regulatory protein LysG
+Q6A9D2	No annotation	Sigma-70	Q9X1E1	transcriptional regulatory Rex family	0.3619	1	Redox-sensing transcriptional repressor Rex 2
+Q6ABI8	No annotation	Trans_reg_C	P42427	LysR	0.3622	1	HTH-type transcriptional regulator TfdT
+Q6A8F0	No annotation	MarR family	P52659	LysR	0.363	1	HTH-type transcriptional regulator AbaB
+Q6ABT6	No annotation	DeoR	C6BU59	transcriptional regulatory Rex family	0.3639	1	Redox-sensing transcriptional repressor Rex
+Q6A6D9	No annotation	ROK family	P52659	LysR	0.3644	1	HTH-type transcriptional regulator AbaB
+Q6AAP9	No annotation	luxR family	P67666	LysR	0.3644	1	HTH-type transcriptional regulator LysG
+Q6A828	No annotation	Trans_reg_C	P39647	LysR	0.3653	1	HTH-type transcriptional regulator CysL
+Q6A8W5	No annotation	DUF3071	P57163	sigma-70 factor family	0.3654	1	RNA polymerase sigma factor RpoD
+Q6A638	No annotation	ROK family	P67668	LysR	0.366	1	Uncharacterized HTH-type transcriptional regulator Mb2303c
+Q6AB19	No annotation	luxR family	P43161	LysR	0.3733	1	Small neutral protease regulatory protein
+Q6ABC9	HTH cro/C1-type domain-containing protein	Peptidase_M78	P56835	sigma-70 factor family	0.3738	1	RNA polymerase sigma factor SigA
+Q6AAD4	No annotation	TetR family	P42427	LysR	0.374	1	HTH-type transcriptional regulator TfdT
+Q6A5K8	No annotation	MarR family	P52003	MarR/SlyA	0.3749	1	Multidrug resistance operon repressor
+Q6A904	No annotation	DeoR	Q7UW59	transcriptional regulatory Rex family	0.3755	1	Redox-sensing transcriptional repressor Rex
+Q6ABQ1	No annotation	LacI family	Q46M57	LysR	0.3792	1	HTH-type transcriptional regulator TdfR
+Q6A657	No annotation	Trans_reg_C	P39647	LysR	0.3829	1	HTH-type transcriptional regulator CysL
+Q6AAH9	No annotation	DtxR	Q87L53	MarR/SlyA	0.3863	1	Transcriptional regulator
+Q6A987	No annotation	LuxR family	O69055	LysR	0.3915	1	Putative HTH-type transcriptional regulator protein PtxE
+Q6A9I0	No annotation	TetR family	P96440	MarR/SlyA	0.394	1	Exopolysaccharide II synthesis transcriptional activator ExpG
+Q6A8M8	No annotation	RpiR	P27102	LysR	0.3955	1	HTH-type transcriptional regulator TcbR
+Q6AA10	No annotation	Peptidase_M24	Q88RJ2	FIS	0.3973	1	Probable proton/glutamate-aspartate symporter
+Q6AA82	No annotation	MarR family	M4TR54	MarR/SlyA	0.4018	1	No annotation
+Q6AAY2	GerMN domain-containing protein	Sigma-70	Q59996	sigma-70 factor family	0.4042	1	Probable RNA polymerase sigma-C factor
+Q6AB10	No annotation	DeoRC	Q7UW59	transcriptional regulatory Rex family	0.4079	1	Redox-sensing transcriptional repressor Rex
+Q6A9S0	No annotation	GntR family	I3XE46	LysR	0.4162	1	No annotation
+Q6ABN1	No annotation	PaaX	P33651	LysR	0.417	1	HTH-type transcriptional regulator BlaA
+Q6AAV2	No annotation	Trans_reg_C	P39647	LysR	0.4181	1	HTH-type transcriptional regulator CysL
+Q6A8Z1	No annotation	LexA	P33651	LysR	0.4312	1	HTH-type transcriptional regulator BlaA
+Q6ABE4	No annotation	GntR	P42427	LysR	0.4326	1	HTH-type transcriptional regulator TfdT
+Q6A5Q5	4Fe-4S Wbl-type domain-containing protein	WhiB	O83506	sigma-70 factor family	0.4329	1	RNA polymerase sigma factor RpoD
+Q6A823	No annotation		A9MMQ4	FlhD family	0.4387	1	Flagellar transcriptional regulator FlhD
+Q6A925	No annotation	PucR	A3DBH0	sigma-70 factor family	0.4408	1	RNA polymerase sigma factor SigI1
+Q6A5F1	No annotation	Sugar-bind	Q9X1E1	transcriptional regulatory Rex family	0.4412	1	Redox-sensing transcriptional repressor Rex 2
+Q6A8E0	No annotation	EPSP_synthase	Q88RJ2	FIS	0.443	1	Probable proton/glutamate-aspartate symporter
+Q6A626	No annotation	TetR family	P42427	LysR	0.4443	1	HTH-type transcriptional regulator TfdT
+Q6AAF7	No annotation	MarR family	Q9I0Z0	LysR	0.4536	1	No annotation
+Q6A8U8	No annotation	PAS_6	P73123	LysR	0.4607	1	Probable RuBisCO transcriptional regulator
+Q6A5I2	No annotation	AsnC	P67666	LysR	0.4627	1	HTH-type transcriptional regulator LysG
+Q6A8T4	No annotation	MerR family 	B8D7T5	FIS	0.463	1	DNA-binding protein Fis
+Q6A7E5	No annotation	Helicase_C	Q5E881	SNF2/RAD54 helicase family. RapA subfamily	0.4693	1	RNA polymerase-associated protein RapA
+Q6ABP2	No annotation	Sigma-70	A3DIE4	sigma-70 factor family	0.4698	1	RNA polymerase sigma factor SigI7
+Q6A866	XRE family transcriptional regulator		P33651	LysR	0.4708	1	HTH-type transcriptional regulator BlaA
+Q6A5P2	No annotation	IclR	P44876	LysR	0.4709	1	Uncharacterized HTH-type transcriptional regulator HI_0775
+Q6A6A1	No annotation	GntR family	P44876	LysR	0.4761	1	Uncharacterized HTH-type transcriptional regulator HI_0775
+Q6A7H0	No annotation	TrmB	Q9I0Z0	LysR	0.4817	1	No annotation
+Q6AAK9	No annotation	GntR	A0A024HKB0	LysR	0.4835	1	No annotation
+Q6A663	No annotation	MerR family 	P12254	sigma-70 factor family	0.4839	1	RNA polymerase sigma-K factor
+Q6A7N6	No annotation	PRD	P52691	LysR	0.4952	1	Probable HTH-type transcriptional regulator LrrA
+Q6A9Y4	No annotation	GntR	A0A024HKB0	LysR	0.5097	1	No annotation
+Q6A5Q1	No annotation	Cupin_2	Q9I0Z0	LysR	0.5147	1	No annotation
+Q6A7M4	Transcription termination/antitermination protein NusA	NusA	O24710	RNA polymerase alpha chain family	0.5156	1	DNA-directed RNA polymerase subunit alpha
+Q6A905	No annotation	HTH_31	Q2FVY9	SarA family	0.5169	1	HTH-type transcriptional regulator SarV
+Q6AA05	No annotation		P0DO98	sigma-70 factor family	0.517	1	RNA polymerase sigma factor SigI
+Q6A8E6	No annotation	AsnC	P73123	LysR	0.5174	1	Probable RuBisCO transcriptional regulator
+Q6A740	Transcriptional regulator WhiB	WhiB	B8F882	MetJ family	0.5387	1	Met repressor
+Q6A9V0	No annotation		P33651	LysR	0.5485	1	HTH-type transcriptional regulator BlaA
+Q6AAG0	No annotation	TOBE	Q9Z7G4	GreA/GreB family	0.5558	1	Transcription elongation factor GreA
+Q6A8Y9	Transcriptional repressor NrdR	ATP-cone	Q9PLU1	GreA/GreB family	0.5643	1	Transcription elongation factor GreA
+Q6A7B8	No annotation	HTH_26	A7ZST9	FeoC family	0.5703	1	Probable [Fe-S]-dependent transcriptional repressor
+Q6A8L0	Probable transcriptional regulatory protein PPA1157	Transcrip_reg	Q5SHR6	RNA polymerase alpha chain family	0.5755	1	DNA-directed RNA polymerase subunit alpha
+Q6A9P4	No annotation	DksA/TraR family	Q5SJG6	GreA/GreB family	0.648	1	Transcription inhibitor protein Gfh1
+Q6A7X8	Cobyrinic acid a,c-diamide synthase		B5FAQ3	TrpR family	0.6827	1	Trp operon repressor homolog

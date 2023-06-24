@@ -166,8 +166,28 @@ def parsing_output(hmmscan_parsed_file):
     newdf.to_csv('hmmscan_families.tsv', sep='\t', index=False)
 
 
+def compare_EAT_HBI(hmmscan_file, EAT_results):
+    EAT = pd.read_csv(EAT_results, sep='\t')
+    hmmscan = pd.read_csv(hmmscan_file, sep='\t')
+    
+    hmmscan_wo_repeats = hmmscan.drop(['Domains', 'Domain_description'], axis=1).drop_duplicates()
+
+    EAT['UniprotID'] = EAT['UniprotID_query']
+
+    df = EAT.merge(hmmscan_wo_repeats.reset_index(), on='UniprotID')
+
+    print(set(EAT['UniprotID']).difference(set(hmmscan['UniprotID'])))
+
+    df.to_csv('comparison_HBI_EAT.tsv', sep='\t', index=False)
+
+
 if __name__ == '__main__':
     deepTF = '/home/maria/EAT_modified/results/hmmscan/deepTF_acnes.fasta'
     hmmscan_parsed_file = '/home/maria/EAT_modified/results/hmmscan/1_HMMER/hmmscan_output_parsed.tsv'
 
-    parsing_output(hmmscan_parsed_file)
+    # parsing_output(hmmscan_parsed_file)
+
+    EAT_results = '/home/maria/EAT_modified/results/eat_results.tsv'
+    hmmscan_file = '/home/maria/EAT_modified/results/hmmscan/hmmscan_families.tsv'
+
+    compare_EAT_HBI(hmmscan_file, EAT_results)
